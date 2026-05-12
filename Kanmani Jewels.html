@@ -1,0 +1,4798 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanmani Covering Jewels – Timeless Tradition, Affordable Elegance</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&family=Noto+Serif+Tamil:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        :root {
+            --cream: #FAF6F0;
+            --cream-dark: #F2EAD8;
+            --gold: #C8973A;
+            --gold-light: #E4B86A;
+            --gold-pale: #F5E6C2;
+            --maroon: #7A1F2E;
+            --maroon-deep: #521018;
+            --maroon-light: #9D3040;
+            --brown: #4A2C1A;
+            --text-dark: #1A1008;
+            --text-mid: #6B4C35;
+            --text-light: #A07850;
+            --white: #FFFFFF;
+            --shadow: rgba(122, 31, 46, 0.12);
+            --shadow-gold: rgba(200, 151, 58, 0.3);
+        }
+
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Jost', sans-serif;
+            background: var(--cream);
+            color: var(--text-dark);
+            overflow-x: hidden;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--cream-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--gold);
+            border-radius: 3px;
+        }
+
+        /* ANNOUNCEMENT */
+        .announcement {
+            background: var(--maroon);
+            color: var(--gold-pale);
+            padding: 8px;
+            text-align: center;
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            overflow: hidden;
+        }
+
+        .marquee {
+            display: inline-block;
+            animation: march 26s linear infinite;
+            white-space: nowrap;
+        }
+
+        @keyframes march {
+            from {
+                transform: translateX(100vw);
+            }
+
+            to {
+                transform: translateX(-100%);
+            }
+        }
+
+        /* HEADER */
+        header {
+            background: linear-gradient(135deg, var(--maroon-deep) 0%, var(--maroon) 60%, #6B1828 100%);
+            padding: 0 40px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .header-inner {
+            max-width: 1380px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 0;
+            gap: 20px;
+        }
+
+        .logo-wrap {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .logo-ring {
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--gold-light), var(--gold), #A0721C);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2), 0 4px 20px var(--shadow-gold);
+            overflow: hidden;
+        }
+
+        .logo-ring img {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .logo-text h1 {
+            font-family: 'Cormorant', serif;
+            color: var(--gold-light);
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            line-height: 1.1;
+        }
+
+        .logo-text .tamil {
+            font-family: 'Noto Serif Tamil', serif;
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-top: 1px;
+        }
+
+        .logo-text .tag {
+            font-size: 9px;
+            color: var(--gold);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+
+        .search-wrap {
+            flex: 1;
+            max-width: 420px;
+            position: relative;
+        }
+
+        .search-wrap input {
+            width: 100%;
+            padding: 10px 44px 10px 18px;
+            border-radius: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1.5px solid rgba(255, 255, 255, 0.18);
+            color: #fff;
+            font-size: 13.5px;
+            outline: none;
+            font-family: 'Jost', sans-serif;
+            transition: all 0.3s;
+            backdrop-filter: blur(6px);
+        }
+
+        .search-wrap input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .search-wrap input:focus {
+            background: rgba(255, 255, 255, 0.16);
+            border-color: var(--gold);
+        }
+
+        .search-wrap button {
+            position: absolute;
+            right: 6px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--gold);
+            border: none;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            cursor: pointer;
+            color: var(--maroon-deep);
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .search-wrap button:hover {
+            background: var(--gold-light);
+        }
+
+        .h-actions {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+        }
+
+        .h-btn {
+            background: none;
+            border: none;
+            color: rgba(255, 255, 255, 0.88);
+            padding: 8px 11px;
+            cursor: pointer;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            font-size: 10px;
+            letter-spacing: 0.3px;
+            transition: all 0.2s;
+            position: relative;
+            font-family: 'Jost', sans-serif;
+        }
+
+        .h-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: var(--gold-light);
+        }
+
+        .h-btn i {
+            font-size: 19px;
+        }
+
+        .badge {
+            position: absolute;
+            top: 4px;
+            right: 6px;
+            background: var(--gold);
+            color: var(--maroon-deep);
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+            font-size: 9.5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+        }
+
+        /* NAV */
+        nav {
+            background: rgba(0, 0, 0, 0.22);
+            backdrop-filter: blur(8px);
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .nav-inner {
+            max-width: 1380px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .nav-item {
+            color: rgba(255, 255, 255, 0.82);
+            padding: 9px 14px;
+            cursor: pointer;
+            font-family: 'Cormorant', serif;
+            font-size: 15px;
+            letter-spacing: 0.4px;
+            transition: all 0.2s;
+            border-bottom: 2px solid transparent;
+            white-space: nowrap;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            color: var(--gold-light);
+            border-bottom-color: var(--gold);
+        }
+
+        /* PAGE SYSTEM */
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* ═══ HERO ═══ */
+        .hero {
+            min-height: 90vh;
+            position: relative;
+            background: linear-gradient(135deg, var(--maroon-deep) 0%, #6B1828 45%, #8A2535 100%);
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            opacity: 0.18;
+        }
+
+        .hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            mix-blend-mode: luminosity;
+        }
+
+        .hero-pattern {
+            position: absolute;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23C8973A' fill-opacity='0.08'%3E%3Cpath d='M30 0L36 22L60 30L36 38L30 60L24 38L0 30L24 22Z'/%3E%3C/g%3E%3C/svg%3E");
+            background-size: 60px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1380px;
+            margin: 0 auto;
+            padding: 70px 40px;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 60px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-badge-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(200, 151, 58, 0.15);
+            border: 1px solid rgba(200, 151, 58, 0.4);
+            border-radius: 30px;
+            padding: 6px 16px;
+            font-size: 11px;
+            color: var(--gold-light);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 22px;
+        }
+
+        .hero-h2 {
+            font-family: 'Cormorant', serif;
+            font-size: clamp(36px, 5.5vw, 64px);
+            line-height: 1.15;
+            color: #fff;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .hero-h2 em {
+            color: var(--gold-light);
+            font-style: italic;
+            display: block;
+        }
+
+        .hero-p {
+            font-family: 'Cormorant', serif;
+            font-size: 18px;
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.8;
+            margin-bottom: 34px;
+            max-width: 480px;
+        }
+
+        .hero-ctas {
+            display: flex;
+            gap: 14px;
+            flex-wrap: wrap;
+        }
+
+        .btn-gold {
+            background: linear-gradient(135deg, var(--gold-light), var(--gold));
+            color: var(--maroon-deep);
+            border: none;
+            padding: 12px 28px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Jost', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-gold:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px var(--shadow-gold);
+        }
+
+        .btn-maroon {
+            background: transparent;
+            color: var(--gold-light);
+            border: 1.5px solid rgba(200, 151, 58, 0.5);
+            padding: 12px 26px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Jost', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-maroon:hover {
+            border-color: var(--gold-light);
+            background: rgba(200, 151, 58, 0.1);
+        }
+
+        .hero-stats {
+            display: flex;
+            margin-top: 48px;
+            padding-top: 28px;
+            border-top: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .stat {
+            text-align: center;
+            flex: 1;
+            padding: 0 8px;
+            border-right: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .stat:last-child {
+            border-right: none;
+        }
+
+        .stat-n {
+            font-family: 'Cormorant', serif;
+            font-size: 28px;
+            color: var(--gold-light);
+            display: block;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .stat-l {
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.55);
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-top: 4px;
+        }
+
+        /* HERO VISUAL */
+        .hero-visual {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-slider-wrap {
+            width: 100%;
+            max-width: 380px;
+            position: relative;
+        }
+
+        .slider-frame {
+            width: 100%;
+            aspect-ratio: 3/4;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1.5px solid rgba(200, 151, 58, 0.35);
+            border-radius: 20px;
+            overflow: hidden;
+            position: relative;
+            backdrop-filter: blur(6px);
+        }
+
+        .slide {
+            display: none;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .slide.active {
+            display: block;
+            animation: slFade 0.5s ease;
+        }
+
+        @keyframes slFade {
+            from {
+                opacity: 0;
+                transform: scale(0.97);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slide-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(transparent, rgba(82, 16, 24, 0.92));
+            padding: 28px 20px 22px;
+        }
+
+        .slide-name {
+            font-family: 'Cormorant', serif;
+            font-size: 18px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .slide-price {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--gold-light);
+        }
+
+        .slide-pill {
+            display: inline-block;
+            background: var(--gold);
+            color: var(--maroon-deep);
+            padding: 3px 11px;
+            border-radius: 20px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            margin-top: 6px;
+            text-transform: uppercase;
+        }
+
+        .sl-dots {
+            position: absolute;
+            bottom: 20px;
+            right: 16px;
+            display: flex;
+            gap: 6px;
+            flex-direction: column;
+        }
+
+        .sl-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: rgba(200, 151, 58, 0.35);
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .sl-dot.active {
+            background: var(--gold-light);
+            transform: scale(1.4);
+        }
+
+        .sl-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: calc(100% + 28px);
+            left: -14px;
+            display: flex;
+            justify-content: space-between;
+            pointer-events: none;
+        }
+
+        .sl-nav button {
+            pointer-events: all;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(82, 16, 24, 0.7);
+            border: 1px solid rgba(200, 151, 58, 0.4);
+            color: var(--gold-light);
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            backdrop-filter: blur(4px);
+        }
+
+        .sl-nav button:hover {
+            background: var(--maroon);
+        }
+
+        /* FEATURES STRIP */
+        .features-strip {
+            background: var(--maroon);
+            padding: 26px 40px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .feat {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 8px 28px;
+            border-right: 1px solid rgba(255, 255, 255, 0.12);
+        }
+
+        .feat:last-child {
+            border-right: none;
+        }
+
+        .feat i {
+            font-size: 20px;
+            color: var(--gold-light);
+        }
+
+        .feat-t strong {
+            display: block;
+            font-size: 13px;
+            color: #fff;
+            font-weight: 500;
+        }
+
+        .feat-t span {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.58);
+        }
+
+        /* SECTION COMMONS */
+        .section-title {
+            text-align: center;
+            font-family: 'Cormorant', serif;
+            font-size: 34px;
+            color: var(--maroon);
+            font-weight: 700;
+        }
+
+        .section-title span {
+            color: var(--gold);
+        }
+
+        .section-sub {
+            text-align: center;
+            color: var(--text-mid);
+            font-family: 'Cormorant', serif;
+            font-size: 17px;
+            font-style: italic;
+            margin-bottom: 32px;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 10px 0 20px;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+
+        .divider span {
+            color: var(--gold);
+            font-size: 14px;
+        }
+
+        /* CATEGORIES */
+        .cats-section {
+            padding: 64px 40px;
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        .cats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+            gap: 16px;
+            margin-top: 10px;
+        }
+
+        .cat-card {
+            background: var(--white);
+            border-radius: 14px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            box-shadow: 0 2px 12px var(--shadow);
+            position: relative;
+        }
+
+        .cat-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 14px 36px var(--shadow);
+            border-color: var(--gold);
+        }
+
+        .cat-img-wrap {
+            width: 100%;
+            aspect-ratio: 1;
+            overflow: hidden;
+            background: var(--cream-dark);
+        }
+
+        .cat-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s;
+        }
+
+        .cat-card:hover .cat-img-wrap img {
+            transform: scale(1.08);
+        }
+
+        .cat-info {
+            padding: 10px 10px 12px;
+            text-align: center;
+        }
+
+        .cat-name {
+            font-family: 'Cormorant', serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--maroon);
+        }
+
+        .cat-count {
+            font-size: 10.5px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        /* PRODUCTS GRID */
+        .products-section {
+            padding: 40px 40px;
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        .prod-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 22px;
+        }
+
+        .prod-card {
+            background: var(--white);
+            border-radius: 16px;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 2px 14px var(--shadow);
+            border: 1px solid rgba(200, 151, 58, 0.15);
+            position: relative;
+        }
+
+        .prod-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px var(--shadow);
+        }
+
+        .prod-img-wrap {
+            width: 100%;
+            aspect-ratio: 1;
+            overflow: hidden;
+            background: var(--cream-dark);
+            position: relative;
+        }
+
+        .prod-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.45s;
+        }
+
+        .prod-card:hover .prod-img-wrap img {
+            transform: scale(1.07);
+        }
+
+        .prod-tags {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            gap: 4px;
+            flex-direction: column;
+        }
+
+        .ptag {
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 9.5px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        .ptag-new {
+            background: var(--maroon);
+            color: var(--gold-light);
+        }
+
+        .ptag-sale {
+            background: #C0392B;
+            color: #fff;
+        }
+
+        .ptag-best {
+            background: var(--gold);
+            color: var(--maroon-deep);
+        }
+
+        .ptag-trend {
+            background: #4A1C6A;
+            color: #E8C9FF;
+        }
+
+        .wl-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 34px;
+            height: 34px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.92);
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            color: #ccc;
+            transition: all 0.2s;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .wl-btn:hover,
+        .wl-btn.active {
+            color: var(--maroon);
+        }
+
+        .prod-info {
+            padding: 16px;
+        }
+
+        .prod-name {
+            font-family: 'Cormorant', serif;
+            font-size: 15px;
+            color: var(--text-dark);
+            font-weight: 600;
+            line-height: 1.3;
+            margin-bottom: 4px;
+        }
+
+        .prod-weight {
+            font-size: 11.5px;
+            color: var(--text-light);
+            margin-bottom: 7px;
+        }
+
+        .stars {
+            color: var(--gold);
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+
+        .stars span {
+            color: var(--text-light);
+            font-size: 11px;
+            margin-left: 3px;
+        }
+
+        .price-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        .price-now {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--maroon);
+        }
+
+        .price-was {
+            font-size: 13px;
+            color: var(--text-light);
+            text-decoration: line-through;
+        }
+
+        .price-off {
+            font-size: 11.5px;
+            color: #27AE60;
+            font-weight: 600;
+        }
+
+        .prod-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn-cart {
+            flex: 1;
+            padding: 9px;
+            background: var(--maroon);
+            color: var(--gold-light);
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12.5px;
+            font-family: 'Jost', sans-serif;
+            font-weight: 500;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .btn-cart:hover {
+            background: var(--maroon-deep);
+        }
+
+        .btn-wa {
+            padding: 9px 12px;
+            background: #25D366;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: all 0.2s;
+        }
+
+        .btn-wa:hover {
+            background: #128C7E;
+        }
+
+        /* BESTSELLERS BG */
+        .bs-section {
+            background: var(--cream-dark);
+            padding: 60px 40px;
+            border-top: 3px solid var(--gold-pale);
+            border-bottom: 3px solid var(--gold-pale);
+        }
+
+        .bs-inner {
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        /* TESTIMONIALS */
+        .test-section {
+            background: linear-gradient(135deg, var(--maroon-deep), var(--maroon));
+            padding: 70px 40px;
+        }
+
+        .test-section .section-title {
+            color: var(--gold-light);
+        }
+
+        .test-section .section-sub {
+            color: rgba(255, 255, 255, 0.72);
+        }
+
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 22px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .test-card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(200, 151, 58, 0.28);
+            border-radius: 16px;
+            padding: 26px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s;
+        }
+
+        .test-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .test-quote {
+            font-family: 'Cormorant', serif;
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.9);
+            line-height: 1.8;
+            margin-bottom: 18px;
+            font-style: italic;
+            padding-left: 22px;
+            position: relative;
+        }
+
+        .test-quote::before {
+            content: '\201C';
+            position: absolute;
+            left: 0;
+            top: -8px;
+            font-size: 46px;
+            color: var(--gold);
+            line-height: 1;
+            font-family: Georgia, serif;
+        }
+
+        .test-author {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .test-av {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--gold), #A0721C);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            color: var(--maroon-deep);
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .test-name {
+            font-weight: 600;
+            color: #fff;
+            font-size: 13.5px;
+        }
+
+        .test-loc {
+            font-size: 11.5px;
+            color: var(--gold-light);
+            margin-top: 1px;
+        }
+
+        .test-stars {
+            color: var(--gold);
+            font-size: 12px;
+            margin-top: 2px;
+        }
+
+        /* WHY US */
+        .why-section {
+            padding: 70px 40px;
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        .why-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+            gap: 22px;
+        }
+
+        .why-card {
+            text-align: center;
+            padding: 30px 18px;
+            border-radius: 16px;
+            background: var(--white);
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            transition: all 0.3s;
+        }
+
+        .why-card:hover {
+            border-color: var(--gold);
+            transform: translateY(-5px);
+            box-shadow: 0 12px 32px var(--shadow);
+        }
+
+        .why-icon {
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--cream-dark), var(--cream));
+            border: 2px solid var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            margin: 0 auto 14px;
+            color: var(--maroon);
+            transition: all 0.3s;
+        }
+
+        .why-card:hover .why-icon {
+            background: var(--maroon);
+            color: var(--gold-light);
+            border-color: var(--maroon);
+        }
+
+        .why-title {
+            font-family: 'Cormorant', serif;
+            font-size: 16px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .why-desc {
+            font-size: 12.5px;
+            color: var(--text-mid);
+            line-height: 1.65;
+        }
+
+        /* SHOP PAGE */
+        .shop-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 24px;
+            padding: 30px 40px;
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        .filters-side {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 22px;
+            height: fit-content;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            position: sticky;
+            top: 140px;
+        }
+
+        .filter-title {
+            font-family: 'Cormorant', serif;
+            font-size: 18px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--gold);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .filter-grp {
+            margin-bottom: 18px;
+        }
+
+        .filter-grp-title {
+            font-weight: 600;
+            font-size: 11px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--text-mid);
+            margin-bottom: 10px;
+        }
+
+        .filter-opt {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 5px 0;
+            cursor: pointer;
+        }
+
+        .filter-opt input[type=checkbox] {
+            accent-color: var(--maroon);
+        }
+
+        .filter-opt label {
+            font-size: 13.5px;
+            color: var(--text-dark);
+            cursor: pointer;
+            flex: 1;
+        }
+
+        .filter-opt .ct {
+            font-size: 11px;
+            color: var(--text-light);
+        }
+
+        .price-inputs {
+            display: flex;
+            gap: 8px;
+        }
+
+        .price-inputs input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            border-radius: 6px;
+            font-size: 13px;
+            color: var(--text-dark);
+            background: var(--cream);
+        }
+
+        .shop-toolbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 22px;
+            padding: 14px 18px;
+            background: var(--white);
+            border-radius: 12px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .res-count {
+            font-family: 'Cormorant', serif;
+            font-size: 15px;
+            color: var(--text-mid);
+        }
+
+        .sort-sel {
+            padding: 8px 14px;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            border-radius: 6px;
+            color: var(--text-dark);
+            font-size: 13.5px;
+            background: var(--cream);
+            cursor: pointer;
+        }
+
+        /* PRODUCT DETAIL */
+        .prod-detail {
+            padding: 30px 40px;
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        .prod-detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+        }
+
+        .prod-gallery {
+            position: sticky;
+            top: 140px;
+            height: fit-content;
+        }
+
+        .main-img-wrap {
+            width: 100%;
+            aspect-ratio: 1;
+            border-radius: 20px;
+            overflow: hidden;
+            border: 1.5px solid rgba(200, 151, 58, 0.25);
+            margin-bottom: 14px;
+            background: var(--cream-dark);
+        }
+
+        .main-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .thumb-row {
+            display: flex;
+            gap: 10px;
+        }
+
+        .thumb {
+            width: 68px;
+            height: 68px;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid rgba(200, 151, 58, 0.2);
+            transition: border-color 0.2s;
+        }
+
+        .thumb:hover,
+        .thumb.active {
+            border-color: var(--gold);
+        }
+
+        .thumb img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .breadcrumb {
+            font-size: 12.5px;
+            color: var(--text-light);
+            margin-bottom: 12px;
+        }
+
+        .breadcrumb span {
+            color: var(--maroon);
+            cursor: pointer;
+        }
+
+        .breadcrumb span:hover {
+            text-decoration: underline;
+        }
+
+        .detail-name {
+            font-family: 'Cormorant', serif;
+            font-size: 28px;
+            color: var(--text-dark);
+            font-weight: 700;
+            line-height: 1.25;
+            margin-bottom: 10px;
+        }
+
+        .detail-meta {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+
+        .detail-price-row {
+            margin: 18px 0;
+        }
+
+        .detail-price {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--maroon);
+        }
+
+        .detail-price-old {
+            font-size: 16px;
+            color: var(--text-light);
+            text-decoration: line-through;
+            margin-left: 10px;
+        }
+
+        .detail-saving {
+            display: inline-block;
+            background: #EBF8F0;
+            color: #1B7A40;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 12.5px;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .size-section {
+            margin-bottom: 18px;
+        }
+
+        .size-label {
+            font-weight: 600;
+            font-size: 13.5px;
+            color: var(--text-mid);
+            margin-bottom: 9px;
+        }
+
+        .size-opts {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .size-btn {
+            padding: 7px 15px;
+            border-radius: 6px;
+            border: 1.5px solid rgba(200, 151, 58, 0.3);
+            background: var(--cream);
+            font-size: 12.5px;
+            cursor: pointer;
+            transition: all 0.2s;
+            color: var(--text-dark);
+        }
+
+        .size-btn:hover,
+        .size-btn.active {
+            border-color: var(--maroon);
+            color: var(--maroon);
+            background: var(--cream-dark);
+        }
+
+        .qty-section {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 22px;
+        }
+
+        .qty-label {
+            font-weight: 600;
+            font-size: 13.5px;
+            color: var(--text-mid);
+        }
+
+        .qty-ctrl {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .qty-btn {
+            width: 34px;
+            height: 34px;
+            border-radius: 6px;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            background: var(--cream);
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--maroon);
+            transition: all 0.2s;
+        }
+
+        .qty-btn:hover {
+            background: var(--cream-dark);
+        }
+
+        .qty-in {
+            width: 48px;
+            height: 34px;
+            text-align: center;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: 600;
+            background: var(--cream);
+        }
+
+        .detail-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 22px;
+        }
+
+        .btn-buynow {
+            flex: 1;
+            min-width: 140px;
+            padding: 13px;
+            background: linear-gradient(135deg, var(--gold-light), var(--gold));
+            color: var(--maroon-deep);
+            border: none;
+            border-radius: 10px;
+            font-family: 'Jost', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-buynow:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 22px var(--shadow-gold);
+        }
+
+        .btn-addcart-d {
+            flex: 1;
+            min-width: 140px;
+            padding: 13px;
+            background: var(--maroon);
+            color: var(--gold-light);
+            border: none;
+            border-radius: 10px;
+            font-family: 'Jost', sans-serif;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-addcart-d:hover {
+            background: var(--maroon-deep);
+            transform: translateY(-2px);
+        }
+
+        .btn-wa-d {
+            padding: 13px 18px;
+            background: #25D366;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: all 0.2s;
+        }
+
+        .btn-wa-d:hover {
+            background: #128C7E;
+        }
+
+        .delivery-info {
+            background: #F0FDF6;
+            border-radius: 10px;
+            padding: 14px;
+            border: 1px solid #A7DDB5;
+            margin-bottom: 18px;
+        }
+
+        .delivery-info p {
+            font-size: 12.5px;
+            color: #15803D;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 5px;
+        }
+
+        .prod-specs {
+            background: var(--cream);
+            border-radius: 12px;
+            padding: 18px;
+            margin-bottom: 18px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .spec-row {
+            display: flex;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.15);
+            font-size: 13.5px;
+        }
+
+        .spec-row:last-child {
+            border-bottom: none;
+        }
+
+        .spec-key {
+            font-weight: 600;
+            color: var(--text-mid);
+            width: 130px;
+            flex-shrink: 0;
+        }
+
+        .spec-val {
+            color: var(--text-dark);
+        }
+
+        /* CART */
+        .cart-page {
+            padding: 30px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .cart-layout {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 28px;
+        }
+
+        .cart-items {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .cart-header {
+            font-family: 'Cormorant', serif;
+            font-size: 20px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 18px;
+            padding-bottom: 14px;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .cart-item {
+            display: grid;
+            grid-template-columns: 80px 1fr auto;
+            gap: 14px;
+            padding: 16px 0;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.15);
+            align-items: center;
+        }
+
+        .cart-item-img {
+            width: 80px;
+            height: 80px;
+            background: var(--cream-dark);
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .cart-item-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .cart-item-info h4 {
+            font-family: 'Cormorant', serif;
+            font-size: 14.5px;
+            color: var(--text-dark);
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .cart-item-info p {
+            font-size: 12.5px;
+            color: var(--text-light);
+            margin-bottom: 7px;
+        }
+
+        .cart-item-price {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--maroon);
+        }
+
+        .remove-btn {
+            background: none;
+            border: none;
+            color: #E53935;
+            cursor: pointer;
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        .cart-summary {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 24px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            height: fit-content;
+            position: sticky;
+            top: 140px;
+        }
+
+        .summary-title {
+            font-family: 'Cormorant', serif;
+            font-size: 18px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            font-size: 13.5px;
+        }
+
+        .summary-row.total {
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--maroon);
+            border-top: 2px solid var(--gold);
+            margin-top: 8px;
+            padding-top: 12px;
+        }
+
+        .summary-row .free {
+            color: #2e7d32;
+            font-weight: 600;
+        }
+
+        .coupon-row {
+            display: flex;
+            gap: 8px;
+            margin: 14px 0;
+        }
+
+        .coupon-row input {
+            flex: 1;
+            padding: 9px;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            border-radius: 6px;
+            font-size: 13.5px;
+            background: var(--cream);
+        }
+
+        .coupon-row button {
+            padding: 9px 14px;
+            background: var(--maroon);
+            color: var(--gold-light);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13.5px;
+        }
+
+        /* CHECKOUT */
+        .checkout-page {
+            padding: 30px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .checkout-grid {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 28px;
+        }
+
+        .checkout-form {
+            background: var(--white);
+            border-radius: 16px;
+            padding: 30px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .checkout-sec-title {
+            font-family: 'Cormorant', serif;
+            font-size: 17px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 18px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .checkout-sec-title i {
+            color: var(--gold);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 14px;
+            margin-bottom: 14px;
+        }
+
+        .form-grp {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin-bottom: 14px;
+        }
+
+        .form-grp label {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--text-mid);
+        }
+
+        .form-grp input,
+        .form-grp select,
+        .form-grp textarea {
+            padding: 10px 13px;
+            border: 1.5px solid rgba(200, 151, 58, 0.25);
+            border-radius: 8px;
+            font-size: 13.5px;
+            color: var(--text-dark);
+            background: var(--cream);
+            transition: border-color 0.2s;
+            font-family: 'Jost', sans-serif;
+        }
+
+        .form-grp input:focus,
+        .form-grp select:focus {
+            border-color: var(--gold);
+            outline: none;
+        }
+
+        .payment-methods {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+
+        .pay-opt {
+            border: 1.5px solid rgba(200, 151, 58, 0.25);
+            border-radius: 10px;
+            padding: 14px 10px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: var(--cream);
+        }
+
+        .pay-opt:hover {
+            border-color: var(--gold);
+        }
+
+        .pay-opt.selected {
+            border-color: var(--maroon);
+            background: var(--cream-dark);
+        }
+
+        .pay-opt i {
+            font-size: 22px;
+            color: var(--maroon);
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .pay-opt span {
+            font-size: 11.5px;
+            font-weight: 600;
+            color: var(--text-mid);
+        }
+
+        /* SUCCESS */
+        .success-page {
+            padding: 60px 40px;
+            max-width: 680px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .success-circle {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #2e7d32, #43a047);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 46px;
+            color: #fff;
+            animation: sPop 0.6s ease;
+        }
+
+        @keyframes sPop {
+            0% {
+                transform: scale(0);
+            }
+
+            70% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .success-title {
+            font-family: 'Cormorant', serif;
+            font-size: 36px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .order-sum-box {
+            background: var(--white);
+            border-radius: 14px;
+            padding: 24px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            text-align: left;
+            margin: 28px 0;
+        }
+
+        .order-sum-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            font-size: 13.5px;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.15);
+        }
+
+        .order-sum-row:last-child {
+            border-bottom: none;
+            font-weight: 700;
+            font-size: 15px;
+            color: var(--maroon);
+        }
+
+        /* PAGE HERO */
+        .page-hero {
+            background: linear-gradient(135deg, var(--maroon-deep), var(--maroon));
+            padding: 60px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .page-hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            opacity: 0.07;
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23C8973A' fill-opacity='0.5'%3E%3Cpath d='M30 0L36 22L60 30L36 38L30 60L24 38L0 30L24 22Z'/%3E%3C/g%3E%3C/svg%3E");
+            background-size: 60px;
+        }
+
+        .page-hero h1 {
+            font-family: 'Cormorant', serif;
+            font-size: 42px;
+            color: var(--gold-light);
+            position: relative;
+            font-weight: 700;
+        }
+
+        .page-hero p {
+            font-family: 'Cormorant', serif;
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-top: 10px;
+            font-style: italic;
+            position: relative;
+        }
+
+        .page-banner {
+            background: var(--cream-dark);
+            padding: 16px 40px;
+            border-bottom: 2.5px solid var(--gold);
+        }
+
+        .page-banner-inner {
+            max-width: 1380px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .page-banner h2 {
+            font-family: 'Cormorant', serif;
+            font-size: 22px;
+            color: var(--maroon);
+            font-weight: 700;
+        }
+
+        .page-banner .bnav {
+            font-size: 12.5px;
+            color: var(--text-light);
+        }
+
+        .page-banner .bnav a {
+            color: var(--gold);
+            cursor: pointer;
+        }
+
+        .content-section {
+            padding: 60px 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* BRIDAL */
+        .bridal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 26px;
+        }
+
+        .bridal-card {
+            border-radius: 18px;
+            overflow: hidden;
+            background: var(--white);
+            box-shadow: 0 4px 22px var(--shadow);
+            cursor: pointer;
+            transition: all 0.3s;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .bridal-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 18px 44px var(--shadow);
+        }
+
+        .bridal-img {
+            aspect-ratio: 4/3;
+            overflow: hidden;
+            position: relative;
+            background: var(--cream-dark);
+        }
+
+        .bridal-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.45s;
+        }
+
+        .bridal-card:hover .bridal-img img {
+            transform: scale(1.06);
+        }
+
+        .bridal-label {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: linear-gradient(135deg, var(--gold-light), var(--gold));
+            color: var(--maroon-deep);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .bridal-info {
+            padding: 18px;
+        }
+
+        .bridal-name {
+            font-family: 'Cormorant', serif;
+            font-size: 18px;
+            color: var(--text-dark);
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .bridal-price {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--maroon);
+        }
+
+        /* ABOUT */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        /* CARE */
+        .care-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 22px;
+        }
+
+        .care-card {
+            background: var(--white);
+            border-radius: 14px;
+            padding: 24px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            transition: all 0.3s;
+        }
+
+        .care-card:hover {
+            box-shadow: 0 8px 28px var(--shadow);
+            transform: translateY(-4px);
+        }
+
+        .care-icon {
+            font-size: 34px;
+            margin-bottom: 12px;
+        }
+
+        .care-title {
+            font-family: 'Cormorant', serif;
+            font-size: 16px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .care-text {
+            font-size: 13px;
+            color: var(--text-mid);
+            line-height: 1.7;
+        }
+
+        /* CONTACT */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .contact-info-item {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+            margin-bottom: 22px;
+        }
+
+        .ci-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 12px;
+            background: var(--maroon);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 17px;
+            color: var(--gold-light);
+            flex-shrink: 0;
+        }
+
+        .ci-text h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        .ci-text p {
+            font-size: 13.5px;
+            color: var(--text-mid);
+            line-height: 1.6;
+        }
+
+        .map-ph {
+            background: var(--cream-dark);
+            border-radius: 12px;
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-mid);
+            border: 1.5px dashed var(--gold);
+            margin-top: 18px;
+        }
+
+        .map-ph i {
+            font-size: 38px;
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+
+        /* TRACK */
+        .track-container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 50px 40px;
+        }
+
+        .track-form {
+            background: var(--white);
+            border-radius: 14px;
+            padding: 28px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            margin-bottom: 28px;
+        }
+
+        .track-steps {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .track-step {
+            display: flex;
+            gap: 18px;
+            align-items: flex-start;
+            padding-bottom: 22px;
+            position: relative;
+        }
+
+        .track-step:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            left: 18px;
+            top: 38px;
+            width: 2px;
+            height: calc(100% - 38px);
+            background: rgba(200, 151, 58, 0.2);
+        }
+
+        .track-step.done::after {
+            background: #4CAF50;
+        }
+
+        .step-circle {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 2px solid rgba(200, 151, 58, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            flex-shrink: 0;
+            background: var(--white);
+            position: relative;
+            z-index: 1;
+        }
+
+        .track-step.done .step-circle {
+            border-color: #4CAF50;
+            color: #4CAF50;
+            background: #F1F8E9;
+        }
+
+        .track-step.current .step-circle {
+            border-color: var(--maroon);
+            color: var(--maroon);
+            background: var(--cream-dark);
+        }
+
+        .step-info h4 {
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 2px;
+            font-size: 13.5px;
+        }
+
+        .step-info p {
+            font-size: 12.5px;
+            color: var(--text-light);
+        }
+
+        .step-date {
+            font-size: 11.5px;
+            color: var(--gold);
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        /* WISHLIST */
+        .wishlist-section {
+            padding: 40px 40px;
+            max-width: 1380px;
+            margin: 0 auto;
+        }
+
+        /* NEWSLETTER */
+        .newsletter-section {
+            background: var(--cream-dark);
+            padding: 48px 40px;
+            text-align: center;
+            border-top: 3px solid var(--gold-pale);
+        }
+
+        .newsletter-section h3 {
+            font-family: 'Cormorant', serif;
+            font-size: 28px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .newsletter-section p {
+            font-family: 'Cormorant', serif;
+            font-size: 16px;
+            color: var(--text-mid);
+            margin-bottom: 18px;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+            max-width: 420px;
+            margin: 0 auto;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 11px 16px;
+            border: 1.5px solid var(--gold);
+            border-radius: 6px;
+            font-size: 13.5px;
+            color: var(--text-dark);
+            background: var(--white);
+        }
+
+        .newsletter-form button {
+            padding: 11px 22px;
+            background: var(--maroon);
+            color: var(--gold-light);
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13.5px;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        /* FOOTER */
+        footer {
+            background: linear-gradient(135deg, var(--maroon-deep), var(--maroon));
+            color: rgba(255, 255, 255, 0.88);
+            padding: 58px 40px 28px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            max-width: 1380px;
+            margin: 0 auto 40px;
+        }
+
+        .footer-brand h3 {
+            font-family: 'Cormorant', serif;
+            font-size: 19px;
+            color: var(--gold-light);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .footer-brand p {
+            font-family: 'Cormorant', serif;
+            font-size: 14.5px;
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.8;
+            margin-bottom: 14px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .social-link {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            border: 1px solid rgba(200, 151, 58, 0.35);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--gold);
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+
+        .social-link:hover {
+            background: rgba(200, 151, 58, 0.18);
+            border-color: var(--gold);
+        }
+
+        .footer-col h4 {
+            font-family: 'Cormorant', serif;
+            font-size: 15px;
+            color: var(--gold-light);
+            font-weight: 700;
+            margin-bottom: 14px;
+            padding-bottom: 7px;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.25);
+        }
+
+        .footer-col ul {
+            list-style: none;
+        }
+
+        .footer-col ul li {
+            padding: 4px 0;
+        }
+
+        .footer-col ul li a {
+            color: rgba(255, 255, 255, 0.65);
+            text-decoration: none;
+            font-size: 13.5px;
+            transition: color 0.2s;
+            cursor: pointer;
+        }
+
+        .footer-col ul li a:hover {
+            color: var(--gold-light);
+        }
+
+        .footer-bottom {
+            max-width: 1380px;
+            margin: 0 auto;
+            padding-top: 22px;
+            border-top: 1px solid rgba(200, 151, 58, 0.18);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .footer-bottom p {
+            font-size: 12.5px;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .payment-icons {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+
+        .pay-icon {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+            padding: 3px 7px;
+            font-size: 10.5px;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 700;
+            border: 1px solid rgba(255, 255, 255, 0.14);
+        }
+
+        /* WA FLOAT */
+        .wa-float {
+            position: fixed;
+            bottom: 28px;
+            right: 26px;
+            z-index: 9999;
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            background: #25D366;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 27px;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+            animation: pulseWa 2.5s infinite;
+            transition: transform 0.2s;
+        }
+
+        @keyframes pulseWa {
+
+            0%,
+            100% {
+                box-shadow: 0 4px 20px rgba(37, 211, 102, 0.45);
+            }
+
+            50% {
+                box-shadow: 0 4px 30px rgba(37, 211, 102, 0.75), 0 0 0 8px rgba(37, 211, 102, 0.1);
+            }
+        }
+
+        .wa-float:hover {
+            transform: scale(1.1);
+        }
+
+        /* TOAST */
+        .toast-container {
+            position: fixed;
+            bottom: 96px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 99999;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            pointer-events: none;
+        }
+
+        .toast {
+            background: var(--maroon);
+            color: var(--gold-light);
+            padding: 13px 22px;
+            border-radius: 10px;
+            font-family: 'Jost', sans-serif;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+            animation: toastIn 0.3s ease;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            min-width: 260px;
+            justify-content: center;
+        }
+
+        @keyframes toastIn {
+            from {
+                opacity: 0;
+                transform: translateY(16px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* MODAL */
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.65);
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s;
+        }
+
+        .modal-overlay.open {
+            opacity: 1;
+            pointer-events: all;
+        }
+
+        .modal-box {
+            background: var(--white);
+            border-radius: 20px;
+            padding: 34px;
+            max-width: 480px;
+            width: 100%;
+            position: relative;
+            transform: translateY(18px);
+            transition: transform 0.3s;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .modal-overlay.open .modal-box {
+            transform: translateY(0);
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: var(--text-light);
+        }
+
+        .modal-title {
+            font-family: 'Cormorant', serif;
+            font-size: 24px;
+            color: var(--maroon);
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .login-tabs {
+            display: flex;
+            margin-bottom: 22px;
+            border-bottom: 2px solid rgba(200, 151, 58, 0.2);
+        }
+
+        .login-tab {
+            padding: 9px 18px;
+            cursor: pointer;
+            font-family: 'Cormorant', serif;
+            font-size: 17px;
+            color: var(--text-light);
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+        }
+
+        .login-tab.active {
+            color: var(--maroon);
+            border-bottom-color: var(--maroon);
+        }
+
+        /* STATUS BADGES */
+        .status-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+        }
+
+        .status-delivered {
+            background: #E8F5E9;
+            color: #2e7d32;
+        }
+
+        .status-shipped {
+            background: #E3F2FD;
+            color: #1976D2;
+        }
+
+        .status-processing {
+            background: #FFF3E0;
+            color: #E65100;
+        }
+
+        .status-pending {
+            background: #F3E5F5;
+            color: #7B1FA2;
+        }
+
+        .status-cancelled {
+            background: #FFEBEE;
+            color: #C62828;
+        }
+
+        /* ADMIN */
+        .admin-layout {
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            min-height: 100vh;
+        }
+
+        .admin-sidebar {
+            background: linear-gradient(135deg, var(--maroon-deep), var(--maroon));
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .admin-logo {
+            padding: 24px 18px;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.3);
+            text-align: center;
+        }
+
+        .admin-logo h2 {
+            font-family: 'Cormorant', serif;
+            color: var(--gold-light);
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        .admin-logo p {
+            font-size: 11.5px;
+            color: rgba(255, 255, 255, 0.6);
+            margin-top: 3px;
+        }
+
+        .admin-nav-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 18px;
+            color: rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 3px solid transparent;
+            font-size: 13.5px;
+        }
+
+        .admin-nav-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--gold-light);
+            border-left-color: var(--gold);
+        }
+
+        .admin-nav-item.active {
+            background: rgba(255, 255, 255, 0.12);
+            color: var(--gold-light);
+            border-left-color: var(--gold-light);
+        }
+
+        .admin-nav-item i {
+            width: 17px;
+            text-align: center;
+        }
+
+        .admin-content {
+            background: var(--cream);
+            padding: 28px;
+            overflow-y: auto;
+        }
+
+        .admin-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 28px;
+        }
+
+        .admin-title {
+            font-family: 'Cormorant', serif;
+            font-size: 26px;
+            color: var(--maroon);
+            font-weight: 700;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+            gap: 18px;
+            margin-bottom: 28px;
+        }
+
+        .stat-card {
+            background: var(--white);
+            border-radius: 14px;
+            padding: 18px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            box-shadow: 0 2px 10px var(--shadow);
+        }
+
+        .stat-icon {
+            width: 52px;
+            height: 52px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+
+        .stat-icon.revenue {
+            background: rgba(122, 31, 46, 0.1);
+            color: var(--maroon);
+        }
+
+        .stat-icon.orders {
+            background: rgba(200, 151, 58, 0.15);
+            color: var(--gold);
+        }
+
+        .stat-icon.products {
+            background: rgba(46, 125, 50, 0.1);
+            color: #2e7d32;
+        }
+
+        .stat-icon.customers {
+            background: rgba(25, 118, 210, 0.1);
+            color: #1976d2;
+        }
+
+        .stat-val {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-dark);
+        }
+
+        .stat-lbl {
+            font-size: 11.5px;
+            color: var(--text-light);
+            margin-top: 2px;
+        }
+
+        .stat-change {
+            font-size: 11.5px;
+            margin-top: 3px;
+        }
+
+        .stat-change.up {
+            color: #2e7d32;
+        }
+
+        .stat-change.down {
+            color: #e53935;
+        }
+
+        .admin-table-card {
+            background: var(--white);
+            border-radius: 14px;
+            padding: 20px;
+            border: 1px solid rgba(200, 151, 58, 0.2);
+            margin-bottom: 22px;
+            box-shadow: 0 2px 10px var(--shadow);
+            overflow-x: auto;
+        }
+
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+        .table-title {
+            font-family: 'Cormorant', serif;
+            font-size: 18px;
+            color: var(--maroon);
+            font-weight: 700;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: var(--cream);
+            padding: 11px 14px;
+            text-align: left;
+            font-size: 11px;
+            font-weight: 700;
+            color: var(--text-mid);
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+
+        td {
+            padding: 11px 14px;
+            border-bottom: 1px solid rgba(200, 151, 58, 0.15);
+            font-size: 13.5px;
+            color: var(--text-dark);
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr:hover td {
+            background: var(--cream);
+        }
+
+        .admin-section {
+            display: none;
+        }
+
+        .admin-section.active {
+            display: block;
+        }
+
+        .admin-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .admin-form .full-width {
+            grid-column: 1/-1;
+        }
+
+        .admin-input,
+        .admin-select,
+        .admin-textarea {
+            width: 100%;
+            padding: 10px 13px;
+            border: 1.5px solid rgba(200, 151, 58, 0.25);
+            border-radius: 8px;
+            font-size: 13.5px;
+            color: var(--text-dark);
+            background: var(--cream);
+        }
+
+        .admin-textarea {
+            resize: vertical;
+            min-height: 90px;
+        }
+
+        .admin-label {
+            font-size: 12.5px;
+            font-weight: 600;
+            color: var(--text-mid);
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        /* BUTTONS */
+        .btn-primary {
+            background: var(--maroon);
+            color: var(--gold-light);
+            border: 1.5px solid rgba(200, 151, 58, 0.4);
+            padding: 11px 26px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Jost', sans-serif;
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: 0.3px;
+            transition: all 0.28s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary:hover {
+            background: var(--maroon-deep);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px var(--shadow);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--maroon);
+            border: 1.5px solid var(--maroon);
+            padding: 10px 22px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Jost', sans-serif;
+            font-size: 14px;
+            transition: all 0.25s;
+        }
+
+        .btn-outline:hover {
+            background: var(--maroon);
+            color: var(--gold-light);
+        }
+
+        /* UPI */
+        .upi-methods {
+            display: flex;
+            gap: 8px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .upi-badge {
+            padding: 5px 11px;
+            border-radius: 6px;
+            font-size: 12.5px;
+            font-weight: 700;
+            border: 1px solid rgba(200, 151, 58, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        @media(max-width:1024px) {
+
+            .shop-layout,
+            .prod-detail-grid,
+            .cart-layout,
+            .checkout-grid,
+            .contact-grid,
+            .about-grid,
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .admin-layout {
+                grid-template-columns: 1fr;
+            }
+
+            .admin-sidebar {
+                position: static;
+                height: auto;
+            }
+
+            .hero-content {
+                grid-template-columns: 1fr;
+            }
+
+            .prod-gallery {
+                position: static;
+            }
+
+            .filters-side {
+                position: static;
+            }
+        }
+
+        @media(max-width:768px) {
+            .header-inner {
+                flex-wrap: wrap;
+            }
+
+            .search-wrap {
+                order: 3;
+                flex-basis: 100%;
+                max-width: 100%;
+            }
+
+            .hero-content {
+                padding: 42px 20px;
+            }
+
+            .products-section,
+            .cats-section,
+            .why-section,
+            .bs-section {
+                padding: 30px 20px;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .payment-methods {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .features-strip {
+                flex-direction: column;
+                gap: 8px;
+                padding: 20px;
+            }
+
+            .feat {
+                border-right: none;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                padding: 10px 0;
+            }
+        }
+
+        @keyframes bounce {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-9px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- WA FLOAT -->
+    <a class="wa-float" href="#" onclick="event.preventDefault();showToast('Opening WhatsApp…','success')"><i
+            class="fab fa-whatsapp"></i></a>
+    <!-- TOAST -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- ANNOUNCEMENT -->
+    <div class="announcement">
+        <div class="marquee">✦ Free Shipping above ₹999 &nbsp;|&nbsp; ✦ New Bridal Collection Now Live! &nbsp;|&nbsp; ✦
+            Use KANMANI10 for 10% off &nbsp;|&nbsp; ✦ Cash on Delivery Available Pan-India &nbsp;|&nbsp; ✦ கன்மணி கவரிங்
+            ஜுவல்ஸ் — மரபு, அழகு, தரம் &nbsp;|&nbsp; ✦ WhatsApp: +91 98765 43210</div>
+    </div>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-inner">
+            <div class="logo-wrap" onclick="showPage('home')">
+                <div class="logo-ring">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=100&q=80" alt="logo">
+                </div>
+                <div class="logo-text">
+                    <h1>Kanmani Covering Jewels</h1>
+                    <div class="tamil">கன்மணி கவரிங் ஜுவல்ஸ்</div>
+                    <div class="tag">Timeless Tradition · Affordable Elegance</div>
+                </div>
+            </div>
+            <div class="search-wrap">
+                <input type="text" id="searchInput" placeholder="Search necklaces, earrings, bangles…"
+                    oninput="handleSearch(this.value)">
+                <button onclick="doSearch()"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="h-actions">
+                <button class="h-btn" onclick="showModal('loginModal')"><i
+                        class="fas fa-user"></i><span>Login</span></button>
+                <button class="h-btn" onclick="showPage('wishlist')"><i
+                        class="fas fa-heart"></i><span>Wishlist</span><span class="badge"
+                        id="wishlistBadge">0</span></button>
+                <button class="h-btn" onclick="showPage('cart')"><i
+                        class="fas fa-shopping-bag"></i><span>Cart</span><span class="badge"
+                        id="cartBadge">0</span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAV -->
+    <nav>
+        <div class="nav-inner">
+            <div class="nav-item active" onclick="showPage('home')">Home</div>
+            <div class="nav-item" onclick="showPage('shop')">Shop All</div>
+            <div class="nav-item" onclick="showPage('bridal')">Bridal Collection</div>
+            <div class="nav-item" onclick="showPage('shop');filterCategory('Necklaces')">Necklaces</div>
+            <div class="nav-item" onclick="showPage('shop');filterCategory('Jhumkas')">Earrings</div>
+            <div class="nav-item" onclick="showPage('shop');filterCategory('Bangles')">Bangles</div>
+            <div class="nav-item" onclick="showPage('shop');filterCategory('Temple Jewelry')">Temple Jewelry</div>
+            <div class="nav-item" onclick="showPage('about')">About</div>
+            <div class="nav-item" onclick="showPage('contact')">Contact</div>
+            <div class="nav-item" onclick="showPage('admin')" style="color:var(--gold-light)">⚙ Admin</div>
+        </div>
+    </nav>
+
+    <!-- ═══════════ HOME PAGE ═══════════ -->
+    <div id="page-home" class="page active">
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="https://images.unsplash.com/photo-1601121141461-9d6647bef0a1?w=1600&q=60" alt="">
+            </div>
+            <div class="hero-pattern"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge-pill">கன்மணி கவரிங் ஜுவல்ஸ்</div>
+                    <h2 class="hero-h2">Adorn Your Beauty with<em>Traditional Indian Jewels</em></h2>
+                    <p class="hero-p">Exquisite one gram gold covering jewellery crafted with the finest artisanship.
+                        Wear the elegance of tradition without compromising your budget.</p>
+                    <div class="hero-ctas">
+                        <button class="btn-gold" onclick="showPage('shop')"><i class="fas fa-gem"></i> Explore
+                            Collection</button>
+                        <button class="btn-maroon" onclick="showPage('bridal')"><i class="fas fa-crown"></i> Bridal
+                            Sets</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat"><span class="stat-n">5000+</span><span class="stat-l">Products</span></div>
+                        <div class="stat"><span class="stat-n">50K+</span><span class="stat-l">Customers</span></div>
+                        <div class="stat"><span class="stat-n">15+</span><span class="stat-l">Years Legacy</span></div>
+                        <div class="stat"><span class="stat-n">Pan-India</span><span class="stat-l">Delivery</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-slider-wrap">
+                        <div class="slider-frame">
+                            <div class="slide active" id="slide-0">
+                                <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=600&q=85"
+                                    alt="Temple Necklace Set">
+                                <div class="slide-caption">
+                                    <div class="slide-name">Temple Necklace Set</div>
+                                    <div class="slide-price">₹1,850</div>
+                                    <span class="slide-pill">Bestseller</span>
+                                </div>
+                            </div>
+                            <div class="slide" id="slide-1">
+                                <img src="https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=600&q=85"
+                                    alt="Bridal Bangles Set">
+                                <div class="slide-caption">
+                                    <div class="slide-name">Bridal Bangles Set</div>
+                                    <div class="slide-price">₹2,450</div>
+                                    <span class="slide-pill">New Arrival</span>
+                                </div>
+                            </div>
+                            <div class="slide" id="slide-2">
+                                <img src="https://images.unsplash.com/photo-1630019852942-f89202989a59?w=600&q=85"
+                                    alt="Maang Tikka">
+                                <div class="slide-caption">
+                                    <div class="slide-name">Maang Tikka</div>
+                                    <div class="slide-price">₹980</div>
+                                    <span class="slide-pill">Trending</span>
+                                </div>
+                            </div>
+                            <div class="slide" id="slide-3">
+                                <img src="https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=600&q=85"
+                                    alt="Jhumka Earrings">
+                                <div class="slide-caption">
+                                    <div class="slide-name">Jhumka Earrings</div>
+                                    <div class="slide-price">₹650</div>
+                                    <span class="slide-pill">30% Off</span>
+                                </div>
+                            </div>
+                            <div class="slide" id="slide-4">
+                                <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&q=85"
+                                    alt="Vaddanam Set">
+                                <div class="slide-caption">
+                                    <div class="slide-name">Vaddanam Set</div>
+                                    <div class="slide-price">₹3,200</div>
+                                    <span class="slide-pill">Bridal Special</span>
+                                </div>
+                            </div>
+                            <div class="sl-dots" id="sliderDots"></div>
+                            <div class="sl-nav">
+                                <button onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+                                <button onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURES STRIP -->
+        <div class="features-strip">
+            <div class="feat"><i class="fas fa-truck"></i>
+                <div class="feat-t"><strong>Free Shipping</strong><span>Orders above ₹999</span></div>
+            </div>
+            <div class="feat"><i class="fas fa-undo"></i>
+                <div class="feat-t"><strong>7-Day Returns</strong><span>Hassle-free policy</span></div>
+            </div>
+            <div class="feat"><i class="fas fa-shield-alt"></i>
+                <div class="feat-t"><strong>Secure Payment</strong><span>256-bit SSL encrypted</span></div>
+            </div>
+            <div class="feat"><i class="fab fa-whatsapp"></i>
+                <div class="feat-t"><strong>WhatsApp Support</strong><span>Instant response</span></div>
+            </div>
+            <div class="feat"><i class="fas fa-gem"></i>
+                <div class="feat-t"><strong>Genuine Quality</strong><span>22KT gold plating</span></div>
+            </div>
+        </div>
+
+        <!-- CATEGORIES -->
+        <section class="cats-section">
+            <div class="section-title">Shop by <span>Category</span></div>
+            <div class="section-sub">Handcrafted pieces for every occasion — festivals, weddings &amp; daily wear</div>
+            <div class="divider"><span>◈</span></div>
+            <div class="cats-grid" id="categoriesGrid"></div>
+        </section>
+
+        <!-- BESTSELLERS -->
+        <section class="bs-section">
+            <div class="bs-inner">
+                <div class="section-title">Our <span>Bestsellers</span></div>
+                <div class="section-sub">Loved by thousands of customers across India</div>
+                <div class="divider"><span>◈</span></div>
+                <div class="prod-grid" id="bestsellersGrid"></div>
+                <div style="text-align:center;margin-top:32px"><button class="btn-primary"
+                        onclick="showPage('shop')">View All Products &nbsp;<i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEW ARRIVALS -->
+        <section class="products-section">
+            <div class="section-title">New <span>Arrivals</span></div>
+            <div class="section-sub">Fresh designs added every week — be the first to own them!</div>
+            <div class="divider"><span>◈</span></div>
+            <div class="prod-grid" id="newArrivalsGrid"></div>
+        </section>
+
+        <!-- TESTIMONIALS -->
+        <section class="test-section">
+            <div class="section-title">What Our Customers <span>Say</span></div>
+            <div class="section-sub">Real reviews from real jewellery lovers</div>
+            <br>
+            <div class="test-grid">
+                <div class="test-card">
+                    <div class="test-quote">Absolutely stunning quality for the price! My bridal set from Kanmani was
+                        the talk of the wedding. Everyone thought it was real gold! The craftsmanship is superb.</div>
+                    <div class="test-author">
+                        <div class="test-av">P</div>
+                        <div>
+                            <div class="test-name">Priya Lakshmi</div>
+                            <div class="test-loc">📍 Chennai, Tamil Nadu</div>
+                            <div class="test-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <div class="test-quote">I've been ordering from Kanmani for 3 years now. The consistency in quality
+                        and finish is unmatched. The Vaddanam I bought for my sister's wedding was perfect!</div>
+                    <div class="test-author">
+                        <div class="test-av">S</div>
+                        <div>
+                            <div class="test-name">Savitha Reddy</div>
+                            <div class="test-loc">📍 Hyderabad, Telangana</div>
+                            <div class="test-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="test-card">
+                    <div class="test-quote">Fast delivery, beautiful packaging, and the jhumkas are exactly as shown.
+                        Will definitely order again for Pongal. Great service from the Kanmani team!</div>
+                    <div class="test-author">
+                        <div class="test-av">M</div>
+                        <div>
+                            <div class="test-name">Meenakshi Sundaram</div>
+                            <div class="test-loc">📍 Coimbatore, Tamil Nadu</div>
+                            <div class="test-stars">★★★★★</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY US -->
+        <section class="why-section">
+            <div class="section-title">Why Choose <span>Kanmani?</span></div>
+            <div class="section-sub">15 years of trusted craftsmanship and quality you can feel</div>
+            <div class="divider"><span>◈</span></div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-medal"></i></div>
+                    <div class="why-title">Premium Quality</div>
+                    <div class="why-desc">Microgold &amp; one gram gold plating with anti-tarnish coating. Jewels that
+                        last!</div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-truck"></i></div>
+                    <div class="why-title">Pan-India Delivery</div>
+                    <div class="why-desc">Free shipping above ₹999. Delivered via Delhivery, DTDC &amp; India Post in
+                        3-7 days.</div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-undo"></i></div>
+                    <div class="why-title">Easy Returns</div>
+                    <div class="why-desc">7-day hassle-free returns. Not happy? We'll refund or exchange without
+                        questions.</div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-lock"></i></div>
+                    <div class="why-title">Secure Payments</div>
+                    <div class="why-desc">UPI, Cards, Net Banking, COD — all secured via Razorpay.</div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div class="why-title">WhatsApp Support</div>
+                    <div class="why-desc">Instant help on WhatsApp. Order queries, tracking, custom orders — we're here!
+                    </div>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-gem"></i></div>
+                    <div class="why-title">Genuine Craftsmanship</div>
+                    <div class="why-desc">Traditional South Indian designs by master artisans from Tamil Nadu.</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+        <div class="newsletter-section">
+            <h3>🌸 Join the Kanmani Family</h3>
+            <p>Get early access to new collections, exclusive discounts &amp; styling tips!</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Enter your email address…">
+                <button onclick="showToast('Thank you! Subscribed successfully 🎉','success')">Subscribe</button>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>💎 Kanmani Covering Jewels</h3>
+                    <p>கன்மணி கவரிங் ஜுவல்ஸ் — Serving jewellery lovers across India since 2009. Premium one gram gold,
+                        microgold and antique covering jewellery for every occasion.</p>
+                    <p style="font-size:11.5px;color:rgba(255,255,255,0.4)">GST: 33XXXXX0000X1Z5 · Shop No. 14, Gandhi
+                        Nagar, Salem - 636004</p>
+                    <div class="social-links">
+                        <div class="social-link"><i class="fab fa-instagram"></i></div>
+                        <div class="social-link"><i class="fab fa-facebook-f"></i></div>
+                        <div class="social-link"><i class="fab fa-youtube"></i></div>
+                        <div class="social-link"><i class="fab fa-whatsapp"></i></div>
+                        <div class="social-link"><i class="fab fa-pinterest"></i></div>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a onclick="showPage('home')">Home</a></li>
+                        <li><a onclick="showPage('shop')">Shop All</a></li>
+                        <li><a onclick="showPage('bridal')">Bridal Collection</a></li>
+                        <li><a onclick="showPage('about')">About Us</a></li>
+                        <li><a onclick="showPage('contact')">Contact Us</a></li>
+                        <li><a onclick="showPage('track')">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a>Necklaces &amp; Harams</a></li>
+                        <li><a>Earrings &amp; Jhumkas</a></li>
+                        <li><a>Bangles &amp; Bracelets</a></li>
+                        <li><a>Temple Jewelry</a></li>
+                        <li><a>Vaddanam</a></li>
+                        <li><a>Kids Jewelry</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help &amp; Policies</h4>
+                    <ul>
+                        <li><a onclick="showPage('care')">Care Instructions</a></li>
+                        <li><a onclick="showPage('shipping')">Shipping &amp; Returns</a></li>
+                        <li><a>Privacy Policy</a></li>
+                        <li><a>Terms &amp; Conditions</a></li>
+                        <li><a onclick="showPage('track')">Track Order</a></li>
+                        <li><a>FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Kanmani Covering Jewels. All Rights Reserved. · Made with ❤️ in Tamil Nadu</p>
+                <div class="payment-icons">
+                    <div class="pay-icon">UPI</div>
+                    <div class="pay-icon">GPay</div>
+                    <div class="pay-icon">PhonePe</div>
+                    <div class="pay-icon">Paytm</div>
+                    <div class="pay-icon">VISA</div>
+                    <div class="pay-icon">MC</div>
+                    <div class="pay-icon">COD</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- ═══════════ SHOP PAGE ═══════════ -->
+    <div id="page-shop" class="page">
+        <div class="page-banner">
+            <div class="page-banner-inner">
+                <h2>💎 All Jewellery</h2>
+                <div class="bnav"><a onclick="showPage('home')">Home</a> › Shop</div>
+            </div>
+        </div>
+        <div class="shop-layout">
+            <div class="filters-side">
+                <div class="filter-title">Filters <button onclick="clearFilters()"
+                        style="font-size:11.5px;background:none;border:none;color:var(--gold);cursor:pointer;font-weight:600">Clear
+                        All</button></div>
+                <div class="filter-grp">
+                    <div class="filter-grp-title">Category</div>
+                    <div id="categoryFilters"></div>
+                </div>
+                <div class="filter-grp">
+                    <div class="filter-grp-title">Price Range</div>
+                    <div class="price-inputs"><input type="number" placeholder="₹ Min" id="minPrice"
+                            oninput="applyFilters()"><input type="number" placeholder="₹ Max" id="maxPrice"
+                            oninput="applyFilters()"></div>
+                    <div style="margin-top:10px;display:flex;flex-direction:column;gap:5px">
+                        <div class="filter-opt"><input type="radio" name="pr"
+                                onchange="setPriceRange(0,500)"><label>Under ₹500</label></div>
+                        <div class="filter-opt"><input type="radio" name="pr"
+                                onchange="setPriceRange(500,1000)"><label>₹500 – ₹1,000</label></div>
+                        <div class="filter-opt"><input type="radio" name="pr"
+                                onchange="setPriceRange(1000,2000)"><label>₹1,000 – ₹2,000</label></div>
+                        <div class="filter-opt"><input type="radio" name="pr"
+                                onchange="setPriceRange(2000,5000)"><label>₹2,000 – ₹5,000</label></div>
+                        <div class="filter-opt"><input type="radio" name="pr"
+                                onchange="setPriceRange(5000,99999)"><label>Above ₹5,000</label></div>
+                    </div>
+                </div>
+                <div class="filter-grp">
+                    <div class="filter-grp-title">Material</div>
+                    <div class="filter-opt"><input type="checkbox" id="mat1" onchange="applyFilters()"><label
+                            for="mat1">One Gram Gold</label></div>
+                    <div class="filter-opt"><input type="checkbox" id="mat2" onchange="applyFilters()"><label
+                            for="mat2">Microgold</label></div>
+                    <div class="filter-opt"><input type="checkbox" id="mat3" onchange="applyFilters()"><label
+                            for="mat3">Gold Plated</label></div>
+                    <div class="filter-opt"><input type="checkbox" id="mat4" onchange="applyFilters()"><label
+                            for="mat4">Antique Finish</label></div>
+                </div>
+                <button class="btn-primary" style="width:100%;justify-content:center;margin-top:8px"
+                    onclick="applyFilters()">Apply Filters</button>
+            </div>
+            <div class="shop-main">
+                <div class="shop-toolbar">
+                    <div class="res-count" id="shopResultCount">Showing <strong>16</strong> products</div>
+                    <div style="display:flex;gap:10px;align-items:center">
+                        <label style="font-size:13px;color:var(--text-light)">Sort by:</label>
+                        <select class="sort-sel" onchange="sortProducts(this.value)">
+                            <option value="featured">Featured</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="newest">Newest First</option>
+                            <option value="rating">Top Rated</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="prod-grid" id="shopProductsGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ PRODUCT DETAIL ═══════════ -->
+    <div id="page-product" class="page">
+        <div class="prod-detail">
+            <div class="prod-detail-grid">
+                <div class="prod-gallery">
+                    <div class="main-img-wrap"><img id="detailMainImg" src="" alt=""></div>
+                    <div class="thumb-row" id="detailThumbs"></div>
+                </div>
+                <div>
+                    <div class="breadcrumb"><span onclick="showPage('home')">Home</span> › <span
+                            onclick="showPage('shop')">Shop</span> › <span id="detailCategory">Necklaces</span></div>
+                    <h1 class="detail-name" id="detailName">Temple Necklace Set</h1>
+                    <div class="detail-meta">
+                        <div class="stars" id="detailStars">★★★★★</div>
+                        <div style="font-size:12.5px;color:var(--text-light)" id="detailReviews">(124 reviews)</div>
+                        <span class="ptag ptag-best" id="detailTag">BESTSELLER</span>
+                    </div>
+                    <div class="detail-price-row">
+                        <span class="detail-price" id="detailPrice">₹1,850</span>
+                        <span class="detail-price-old" id="detailOldPrice">₹2,600</span><br>
+                        <span class="detail-saving" id="detailSaving">You save ₹750 (29%)</span>
+                    </div>
+                    <p style="font-size:13.5px;color:var(--text-mid);line-height:1.7;margin-bottom:14px"
+                        id="detailDesc">Beautiful one gram gold covering temple necklace set.</p>
+                    <div class="size-section">
+                        <div class="size-label">Length / Size:</div>
+                        <div class="size-opts">
+                            <button class="size-btn active" onclick="selectSize(this)">16 inch</button>
+                            <button class="size-btn" onclick="selectSize(this)">18 inch</button>
+                            <button class="size-btn" onclick="selectSize(this)">20 inch</button>
+                            <button class="size-btn" onclick="selectSize(this)">Custom</button>
+                        </div>
+                    </div>
+                    <div class="qty-section">
+                        <span class="qty-label">Quantity:</span>
+                        <div class="qty-ctrl">
+                            <button class="qty-btn" onclick="changeQty(-1)">−</button>
+                            <input type="number" class="qty-in" id="qtyInput" value="1" min="1" max="10">
+                            <button class="qty-btn" onclick="changeQty(1)">+</button>
+                        </div>
+                    </div>
+                    <div class="detail-actions">
+                        <button class="btn-addcart-d" onclick="addCurrentToCart()"><i class="fas fa-shopping-bag"></i>
+                            Add to Cart</button>
+                        <button class="btn-buynow" onclick="buyNow()"><i class="fas fa-bolt"></i> Buy Now</button>
+                        <button class="btn-wa-d" onclick="showToast('Opening WhatsApp order chat…','success')"><i
+                                class="fab fa-whatsapp"></i></button>
+                    </div>
+                    <div class="delivery-info">
+                        <p><i class="fas fa-truck"></i> <strong>Free Delivery</strong> on this order</p>
+                        <p><i class="fas fa-undo"></i> 7-day easy return policy</p>
+                        <p><i class="fas fa-shield-alt"></i> Authentic one gram gold covering guaranteed</p>
+                        <p><i class="fas fa-clock"></i> Estimated delivery: 3-7 business days</p>
+                    </div>
+                    <div class="prod-specs">
+                        <div class="spec-row">
+                            <div class="spec-key">Material</div>
+                            <div class="spec-val" id="specMaterial">One Gram Gold</div>
+                        </div>
+                        <div class="spec-row">
+                            <div class="spec-key">Base Metal</div>
+                            <div class="spec-val">Copper / Brass</div>
+                        </div>
+                        <div class="spec-row">
+                            <div class="spec-key">Plating</div>
+                            <div class="spec-val">22 KT Gold Micron Plating</div>
+                        </div>
+                        <div class="spec-row">
+                            <div class="spec-key">Stone</div>
+                            <div class="spec-val" id="specStone">Kemp, Polki</div>
+                        </div>
+                        <div class="spec-row">
+                            <div class="spec-key">Weight</div>
+                            <div class="spec-val" id="specWeight">45 grams</div>
+                        </div>
+                        <div class="spec-row">
+                            <div class="spec-key">Origin</div>
+                            <div class="spec-val">Handcrafted in Tamil Nadu, India</div>
+                        </div>
+                        <div class="spec-row">
+                            <div class="spec-key">SKU</div>
+                            <div class="spec-val" id="specSKU">KCJ-NK-001</div>
+                        </div>
+                    </div>
+                    <div style="display:flex;gap:10px;margin-top:14px">
+                        <button class="btn-outline" onclick="addToWishlist()"><i class="far fa-heart"></i>
+                            Wishlist</button>
+                        <button class="btn-outline"
+                            onclick="showToast('Link copied! Share with friends 📲','success')"><i
+                                class="fas fa-share-alt"></i> Share</button>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top:60px">
+                <div class="section-title">You May Also <span>Like</span></div>
+                <div class="divider"><span>◈</span></div>
+                <div class="prod-grid" id="relatedGrid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ CART PAGE ═══════════ -->
+    <div id="page-cart" class="page">
+        <div class="page-banner">
+            <div class="page-banner-inner">
+                <h2>🛍 Shopping Cart</h2>
+                <div class="bnav"><a onclick="showPage('home')">Home</a> › Cart</div>
+            </div>
+        </div>
+        <div class="cart-page">
+            <div class="cart-layout">
+                <div class="cart-items">
+                    <div class="cart-header">Your Cart (<span id="cartCountDisplay">0</span> items)</div>
+                    <div id="cartItemsContainer">
+                        <div style="text-align:center;padding:44px;color:var(--text-light)"><i
+                                class="fas fa-shopping-bag"
+                                style="font-size:46px;margin-bottom:14px;display:block;opacity:0.3"></i>Your cart is
+                            empty. <a onclick="showPage('shop')"
+                                style="color:var(--maroon);cursor:pointer;font-weight:600">Continue Shopping →</a></div>
+                    </div>
+                </div>
+                <div class="cart-summary">
+                    <div class="summary-title">Order Summary</div>
+                    <div class="summary-row"><span>Subtotal</span><span id="cartSubtotal">₹0</span></div>
+                    <div class="summary-row"><span>Shipping</span><span class="free" id="cartShipping">FREE</span></div>
+                    <div class="summary-row"><span>Discount</span><span style="color:#e53935"
+                            id="cartDiscount">-₹0</span></div>
+                    <div class="summary-row total"><span>Total</span><span id="cartTotal">₹0</span></div>
+                    <div class="coupon-row"><input type="text" placeholder="Coupon code" id="couponInput"><button
+                            onclick="applyCoupon()">Apply</button></div>
+                    <div style="margin-top:8px;font-size:12px;color:var(--gold);font-weight:600">💡 Try: KANMANI10 for
+                        10% off</div>
+                    <button class="btn-gold"
+                        style="width:100%;margin-top:14px;padding:14px;font-size:15px;justify-content:center"
+                        onclick="showPage('checkout')"><i class="fas fa-lock"></i> &nbsp;Proceed to Checkout</button>
+                    <button class="btn-outline" style="width:100%;margin-top:10px;justify-content:center;display:flex"
+                        onclick="showPage('shop')">Continue Shopping</button>
+                    <div style="margin-top:14px;text-align:center;font-size:11.5px;color:var(--text-light)"><i
+                            class="fas fa-shield-alt" style="color:var(--gold)"></i> Secure checkout powered by Razorpay
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ CHECKOUT PAGE ═══════════ -->
+    <div id="page-checkout" class="page">
+        <div class="page-banner">
+            <div class="page-banner-inner">
+                <h2>🔒 Secure Checkout</h2>
+                <div class="bnav"><a onclick="showPage('home')">Home</a> › <a onclick="showPage('cart')">Cart</a> ›
+                    Checkout</div>
+            </div>
+        </div>
+        <div class="checkout-page">
+            <div class="checkout-grid">
+                <div class="checkout-form">
+                    <div class="checkout-sec-title"><i class="fas fa-user"></i> Contact Information</div>
+                    <div class="form-row">
+                        <div class="form-grp"><label>First Name *</label><input type="text" placeholder="Priya"
+                                id="chkFName"></div>
+                        <div class="form-grp"><label>Last Name *</label><input type="text" placeholder="Lakshmi"
+                                id="chkLName"></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-grp"><label>Mobile Number *</label><input type="tel"
+                                placeholder="+91 98765 43210" id="chkPhone"></div>
+                        <div class="form-grp"><label>Email Address</label><input type="email"
+                                placeholder="priya@email.com" id="chkEmail"></div>
+                    </div>
+                    <div class="checkout-sec-title" style="margin-top:22px"><i class="fas fa-map-marker-alt"></i>
+                        Delivery Address</div>
+                    <div class="form-grp"><label>Street Address *</label><input type="text"
+                            placeholder="House No, Street, Area" id="chkAddr"></div>
+                    <div class="form-row">
+                        <div class="form-grp"><label>City *</label><input type="text" placeholder="Chennai"
+                                id="chkCity"></div>
+                        <div class="form-grp"><label>State *</label><select id="chkState">
+                                <option>Tamil Nadu</option>
+                                <option>Andhra Pradesh</option>
+                                <option>Karnataka</option>
+                                <option>Kerala</option>
+                                <option>Telangana</option>
+                                <option>Maharashtra</option>
+                                <option>Other</option>
+                            </select></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-grp"><label>PIN Code *</label><input type="text" placeholder="600001"
+                                id="chkPin"></div>
+                        <div class="form-grp"><label>Landmark (Optional)</label><input type="text"
+                                placeholder="Near temple…" id="chkLandmark"></div>
+                    </div>
+                    <div class="checkout-sec-title" style="margin-top:22px"><i class="fas fa-credit-card"></i> Payment
+                        Method</div>
+                    <div class="payment-methods">
+                        <div class="pay-opt selected" onclick="selectPayment(this,'upi')"><i
+                                class="fas fa-mobile-alt"></i><span>UPI</span></div>
+                        <div class="pay-opt" onclick="selectPayment(this,'card')"><i
+                                class="fas fa-credit-card"></i><span>Card</span></div>
+                        <div class="pay-opt" onclick="selectPayment(this,'netbanking')"><i
+                                class="fas fa-university"></i><span>Net Banking</span></div>
+                        <div class="pay-opt" onclick="selectPayment(this,'gpay')"><i class="fas fa-phone-alt"
+                                style="color:#4285f4"></i><span>Google Pay</span></div>
+                        <div class="pay-opt" onclick="selectPayment(this,'phonepe')"><i class="fas fa-phone-alt"
+                                style="color:#6739b7"></i><span>PhonePe</span></div>
+                        <div class="pay-opt" onclick="selectPayment(this,'cod')"><i class="fas fa-money-bill-wave"
+                                style="color:#2e7d32"></i><span>Cash on Delivery</span></div>
+                    </div>
+                    <div id="upiSection">
+                        <div class="form-grp" style="margin-top:14px"><label>UPI ID</label><input type="text"
+                                placeholder="yourname@upi" id="upiId"></div>
+                    </div>
+                    <div id="cardSection" style="display:none">
+                        <div class="form-grp" style="margin-top:14px"><label>Card Number</label><input type="text"
+                                placeholder="1234 5678 9012 3456" maxlength="19" oninput="formatCard(this)"></div>
+                        <div class="form-row">
+                            <div class="form-grp"><label>Expiry</label><input type="text" placeholder="MM/YY"
+                                    maxlength="5"></div>
+                            <div class="form-grp"><label>CVV</label><input type="password" placeholder="•••"
+                                    maxlength="3"></div>
+                        </div>
+                    </div>
+                    <div id="codSection"
+                        style="display:none;background:#F1F8E9;border-radius:8px;padding:14px;margin-top:14px;border:1px solid #A5D6A7">
+                        <p style="color:#2e7d32;font-size:13.5px;display:flex;align-items:center;gap:8px"><i
+                                class="fas fa-check-circle"></i> Cash on Delivery selected. Pay when your order arrives.
+                            (₹50 COD fee applies)</p>
+                    </div>
+                    <div style="margin-top:22px"><button class="btn-gold"
+                            style="width:100%;padding:15px;font-size:16px;justify-content:center"
+                            onclick="placeOrder()"><i class="fas fa-lock"></i> &nbsp;Place Order — Pay Securely</button>
+                    </div>
+                </div>
+                <div style="height:fit-content;position:sticky;top:140px">
+                    <div class="cart-summary">
+                        <div class="summary-title">Order Summary</div>
+                        <div id="checkoutItems" style="max-height:280px;overflow-y:auto;margin-bottom:14px"></div>
+                        <div class="summary-row"><span>Subtotal</span><span id="chkSubtotal">₹0</span></div>
+                        <div class="summary-row"><span>Shipping</span><span class="free">FREE</span></div>
+                        <div class="summary-row total"><span>Total Payable</span><span id="chkTotal">₹0</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ SUCCESS PAGE ═══════════ -->
+    <div id="page-success" class="page">
+        <div class="success-page">
+            <div class="success-circle"><i class="fas fa-check"></i></div>
+            <h1 class="success-title">Order Placed! 🎉</h1>
+            <p style="font-size:17px;color:var(--text-mid)">Order ID: <strong id="displayOrderId"
+                    style="color:var(--gold)">KCJ-2024-XXXXX</strong></p>
+            <p
+                style="color:var(--text-mid);font-family:'Cormorant',serif;font-size:17px;line-height:1.7;margin-top:12px">
+                Thank you for shopping with <strong>Kanmani Covering Jewels</strong>! 🌸<br>SMS &amp; email confirmation
+                will arrive shortly.</p>
+            <div class="order-sum-box">
+                <div class="order-sum-row"><span>Order Total</span><span id="successTotal">₹0</span></div>
+                <div class="order-sum-row"><span>Payment Method</span><span id="successPayment">UPI</span></div>
+                <div class="order-sum-row"><span>Estimated Delivery</span><span>3-7 Business Days</span></div>
+            </div>
+            <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap"><button class="btn-gold"
+                    onclick="showPage('track')"><i class="fas fa-search"></i> Track Order</button><button
+                    class="btn-primary" onclick="showPage('shop')"><i class="fas fa-gem"></i> Continue Shopping</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ BRIDAL PAGE ═══════════ -->
+    <div id="page-bridal" class="page">
+        <div class="page-hero">
+            <h1>👑 Bridal Collection</h1>
+            <p>Make your special day unforgettable with our exclusive bridal jewellery sets</p>
+        </div>
+        <div class="content-section">
+            <div class="section-title">Complete <span>Bridal Sets</span></div>
+            <div class="section-sub">Curated for the modern bride — traditional design, contemporary elegance</div>
+            <div class="divider"><span>◈</span></div>
+            <div class="bridal-grid" id="bridalGrid"></div>
+        </div>
+    </div>
+
+    <!-- ═══════════ ABOUT PAGE ═══════════ -->
+    <div id="page-about" class="page">
+        <div class="page-hero">
+            <h1>About Kanmani Covering Jewels</h1>
+            <p>15 years of crafting traditions, one jewel at a time</p>
+        </div>
+        <div class="content-section">
+            <div class="about-grid">
+                <div>
+                    <div class="section-title" style="text-align:left">Our <span>Story</span></div>
+                    <div class="divider" style="justify-content:flex-start;margin-bottom:18px"><span>◈</span></div>
+                    <p
+                        style="font-family:'Cormorant',serif;font-size:17px;line-height:1.9;color:var(--text-mid);margin-bottom:14px">
+                        Kanmani Covering Jewels was born in 2009 in the heart of Salem, Tamil Nadu, with a simple dream
+                        — to make the beauty of traditional South Indian gold jewellery accessible to every woman.</p>
+                    <p
+                        style="font-family:'Cormorant',serif;font-size:17px;line-height:1.9;color:var(--text-mid);margin-bottom:14px">
+                        Founded by Smt. Kanagarani Devi, a passionate lover of traditional Tamil jewellery, our brand
+                        has grown from a small shop in Gandhi Nagar to serving over 50,000 customers across India.</p>
+                    <p style="font-family:'Cormorant',serif;font-size:17px;line-height:1.9;color:var(--text-mid)">Every
+                        piece carries the soul of Tamil Nadu's rich jewellery-making tradition — from temple-inspired
+                        designs to intricate Thanjavur work — now available at a fraction of the cost of solid gold.</p>
+                </div>
+                <div
+                    style="background:linear-gradient(135deg,var(--maroon-deep),var(--maroon));border-radius:20px;padding:38px;text-align:center;color:#fff;overflow:hidden;position:relative;">
+                    <img src="https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=400&q=80" alt=""
+                        style="width:100%;height:200px;object-fit:cover;border-radius:12px;margin-bottom:18px;opacity:0.8;">
+                    <h3
+                        style="font-family:'Cormorant',serif;font-size:26px;color:var(--gold-light);margin-bottom:12px;font-weight:700">
+                        Kanagarani Devi</h3>
+                    <p style="font-family:'Cormorant',serif;font-size:15px;opacity:0.85;font-style:italic">"Every woman
+                        deserves to feel like a queen on her special day. Our jewellery makes that dream come true."</p>
+                    <div
+                        style="margin-top:20px;padding-top:20px;border-top:1px solid rgba(200,151,58,0.3);display:grid;grid-template-columns:1fr 1fr;gap:14px">
+                        <div>
+                            <div
+                                style="font-family:'Cormorant',serif;font-size:28px;color:var(--gold-light);font-weight:700">
+                                15+</div>
+                            <div style="font-size:11.5px;opacity:0.7">Years in Business</div>
+                        </div>
+                        <div>
+                            <div
+                                style="font-family:'Cormorant',serif;font-size:28px;color:var(--gold-light);font-weight:700">
+                                5000+</div>
+                            <div style="font-size:11.5px;opacity:0.7">Products</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ CARE PAGE ═══════════ -->
+    <div id="page-care" class="page">
+        <div class="page-hero">
+            <h1>Care Instructions</h1>
+            <p>Simple tips to keep your Kanmani jewellery shining for years</p>
+        </div>
+        <div class="content-section">
+            <div class="care-grid">
+                <div class="care-card">
+                    <div class="care-icon">💧</div>
+                    <div class="care-title">Avoid Water Contact</div>
+                    <div class="care-text">Remove jewellery before bathing, swimming, or washing dishes. Water exposure
+                        reduces the lifespan of gold plating significantly.</div>
+                </div>
+                <div class="care-card">
+                    <div class="care-icon">🧴</div>
+                    <div class="care-title">No Chemicals</div>
+                    <div class="care-text">Keep perfumes, deodorants, hairsprays away from your jewellery. Apply them
+                        first, then wear your pieces.</div>
+                </div>
+                <div class="care-card">
+                    <div class="care-icon">🧺</div>
+                    <div class="care-title">Proper Storage</div>
+                    <div class="care-text">Store each piece separately in a zip-lock pouch or soft cloth bag. Keep in a
+                        cool, dry place away from sunlight.</div>
+                </div>
+                <div class="care-card">
+                    <div class="care-icon">🧼</div>
+                    <div class="care-title">Cleaning</div>
+                    <div class="care-text">Gently wipe with a soft, dry cloth after each use. For stubborn stains, use a
+                        soft brush with mild soap, dry immediately.</div>
+                </div>
+                <div class="care-card">
+                    <div class="care-icon">🏃</div>
+                    <div class="care-title">Remove Before Activities</div>
+                    <div class="care-text">Take off jewellery before exercise, cooking, or sleeping to avoid bending,
+                        breaking, or tarnishing.</div>
+                </div>
+                <div class="care-card">
+                    <div class="care-icon">✨</div>
+                    <div class="care-title">Re-polishing</div>
+                    <div class="care-text">Contact us for re-polishing services. We can restore most pieces to their
+                        original shine for a nominal fee.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ SHIPPING PAGE ═══════════ -->
+    <div id="page-shipping" class="page">
+        <div class="page-hero">
+            <h1>Shipping &amp; Returns</h1>
+            <p>Pan-India delivery with care</p>
+        </div>
+        <div class="content-section" style="max-width:900px">
+            <div
+                style="background:var(--white);border-radius:14px;padding:32px;border:1px solid rgba(200,151,58,0.2);margin-bottom:22px">
+                <h3
+                    style="font-family:'Cormorant',serif;font-size:20px;color:var(--maroon);font-weight:700;margin-bottom:18px">
+                    🚚 Shipping Policy</h3>
+                <table>
+                    <tr style="background:var(--cream)">
+                        <th style="padding:11px;border-bottom:2px solid var(--gold)">Order Value</th>
+                        <th style="padding:11px;border-bottom:2px solid var(--gold)">Charge</th>
+                        <th style="padding:11px;border-bottom:2px solid var(--gold)">Estimated Time</th>
+                    </tr>
+                    <tr>
+                        <td style="padding:11px;border-bottom:1px solid rgba(200,151,58,0.15)">Below ₹999</td>
+                        <td style="padding:11px;border-bottom:1px solid rgba(200,151,58,0.15)">₹60</td>
+                        <td style="padding:11px;border-bottom:1px solid rgba(200,151,58,0.15)">5-7 business days</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:11px;border-bottom:1px solid rgba(200,151,58,0.15)">₹999 and above</td>
+                        <td
+                            style="padding:11px;border-bottom:1px solid rgba(200,151,58,0.15);color:#2e7d32;font-weight:700">
+                            FREE</td>
+                        <td style="padding:11px;border-bottom:1px solid rgba(200,151,58,0.15)">3-5 business days</td>
+                    </tr>
+                    <tr>
+                        <td style="padding:11px">Express Delivery</td>
+                        <td style="padding:11px">₹150 extra</td>
+                        <td style="padding:11px">1-2 business days</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ TRACK PAGE ═══════════ -->
+    <div id="page-track" class="page">
+        <div class="page-hero">
+            <h1>Track Your Order</h1>
+            <p>Real-time updates on your precious jewellery delivery</p>
+        </div>
+        <div class="track-container">
+            <div class="track-form">
+                <h3
+                    style="font-family:'Cormorant',serif;font-size:20px;color:var(--maroon);font-weight:700;margin-bottom:18px">
+                    Enter Order Details</h3>
+                <div class="form-grp"><label>Order ID</label><input type="text" placeholder="e.g. KCJ-2024-78523"
+                        id="trackOrderId"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <div class="form-grp"><label>Mobile Number</label><input type="tel" placeholder="+91 98765 43210"
+                        id="trackPhone"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <button class="btn-gold" style="width:100%;padding:13px;font-size:15px;justify-content:center"
+                    onclick="trackOrder()"><i class="fas fa-search"></i> &nbsp;Track My Order</button>
+            </div>
+            <div id="trackResult" style="display:none">
+                <div
+                    style="background:var(--white);border-radius:14px;padding:24px;border:1px solid rgba(200,151,58,0.2)">
+                    <div
+                        style="display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;padding-bottom:14px;border-bottom:1px solid rgba(200,151,58,0.15)">
+                        <div>
+                            <div style="font-weight:700;color:var(--text-dark);font-size:15px">Order #KCJ-2024-78523
+                            </div>
+                            <div style="font-size:12.5px;color:var(--text-light)">Placed 10 Nov 2024 | 3 items | ₹2,850
+                            </div>
+                        </div>
+                        <span class="status-badge status-shipped">In Transit</span>
+                    </div>
+                    <div class="track-steps">
+                        <div class="track-step done">
+                            <div class="step-circle"><i class="fas fa-check"></i></div>
+                            <div class="step-info">
+                                <h4>Order Placed</h4>
+                                <p>Your order was received and confirmed</p>
+                                <div class="step-date">10 Nov 2024, 2:30 PM</div>
+                            </div>
+                        </div>
+                        <div class="track-step done">
+                            <div class="step-circle"><i class="fas fa-check"></i></div>
+                            <div class="step-info">
+                                <h4>Payment Confirmed</h4>
+                                <p>Payment successfully processed via UPI</p>
+                                <div class="step-date">10 Nov 2024, 2:32 PM</div>
+                            </div>
+                        </div>
+                        <div class="track-step done">
+                            <div class="step-circle"><i class="fas fa-check"></i></div>
+                            <div class="step-info">
+                                <h4>Order Packed</h4>
+                                <p>Your jewellery has been carefully packed</p>
+                                <div class="step-date">11 Nov 2024, 11:00 AM</div>
+                            </div>
+                        </div>
+                        <div class="track-step current">
+                            <div class="step-circle"><i class="fas fa-truck"></i></div>
+                            <div class="step-info">
+                                <h4>In Transit</h4>
+                                <p>Currently at Bengaluru hub</p>
+                                <div class="step-date">13 Nov 2024, 8:00 AM</div>
+                            </div>
+                        </div>
+                        <div class="track-step">
+                            <div class="step-circle"><i class="fas fa-home"></i></div>
+                            <div class="step-info">
+                                <h4>Out for Delivery</h4>
+                                <p>Arriving soon at your doorstep</p>
+                            </div>
+                        </div>
+                        <div class="track-step">
+                            <div class="step-circle"><i class="fas fa-check-double"></i></div>
+                            <div class="step-info">
+                                <h4>Delivered</h4>
+                                <p>Package handed over to you</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ CONTACT PAGE ═══════════ -->
+    <div id="page-contact" class="page">
+        <div class="page-hero">
+            <h1>Contact Us</h1>
+            <p>We're here to help — reach out any time!</p>
+        </div>
+        <div class="content-section">
+            <div class="contact-grid">
+                <div>
+                    <div class="contact-info-item">
+                        <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="ci-text">
+                            <h4>Our Shop</h4>
+                            <p>Shop No. 14, Gandhi Nagar Market,<br>Salem - 636 004, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="ci-icon"><i class="fas fa-phone"></i></div>
+                        <div class="ci-text">
+                            <h4>Phone / WhatsApp</h4>
+                            <p>+91 98765 43210<br>+91 98765 43211</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="ci-text">
+                            <h4>Email</h4>
+                            <p>info@kanmanijewels.com<br>orders@kanmanijewels.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-item">
+                        <div class="ci-icon"><i class="fas fa-clock"></i></div>
+                        <div class="ci-text">
+                            <h4>Business Hours</h4>
+                            <p>Mon–Sat: 9:00 AM – 8:00 PM<br>Sunday: 10:00 AM – 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="map-ph"><i class="fas fa-map-marked-alt"></i>
+                        <div style="font-weight:600;font-size:14px">Shop Location — Salem, Tamil Nadu</div>
+                        <div style="font-size:12.5px;margin-top:4px;opacity:0.6">Google Maps</div>
+                    </div>
+                </div>
+                <div>
+                    <div
+                        style="background:var(--white);border-radius:14px;padding:28px;border:1px solid rgba(200,151,58,0.2)">
+                        <h3
+                            style="font-family:'Cormorant',serif;font-size:20px;color:var(--maroon);font-weight:700;margin-bottom:18px">
+                            Send Us a Message</h3>
+                        <div class="form-grp"><label>Your Name *</label><input type="text" placeholder="Priya Lakshmi"
+                                style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                        </div>
+                        <div class="form-grp"><label>Email Address</label><input type="email"
+                                placeholder="priya@email.com"
+                                style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                        </div>
+                        <div class="form-grp"><label>Message *</label><textarea
+                                style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;resize:vertical;min-height:110px;background:var(--cream);"
+                                placeholder="Type your message here…"></textarea></div>
+                        <button class="btn-primary" style="width:100%;justify-content:center"
+                            onclick="showToast('Message sent! We will reply within 24 hours 📩','success')"><i
+                                class="fas fa-paper-plane"></i> Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ WISHLIST PAGE ═══════════ -->
+    <div id="page-wishlist" class="page">
+        <div class="page-banner">
+            <div class="page-banner-inner">
+                <h2>❤️ My Wishlist</h2>
+                <div class="bnav"><a onclick="showPage('home')">Home</a> › Wishlist</div>
+            </div>
+        </div>
+        <div class="wishlist-section">
+            <div class="prod-grid" id="wishlistGrid">
+                <div style="grid-column:1/-1;text-align:center;padding:60px;color:var(--text-light)"><i
+                        class="far fa-heart" style="font-size:54px;margin-bottom:14px;display:block;opacity:0.25"></i>
+                    <p style="font-size:17px;margin-bottom:14px">Your wishlist is empty</p><button class="btn-primary"
+                        onclick="showPage('shop')">Explore Products</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══════════ ADMIN PANEL ═══════════ -->
+    <div id="page-admin" class="page">
+        <div class="admin-layout">
+            <div class="admin-sidebar">
+                <div class="admin-logo">
+                    <h2>💎 Admin Panel</h2>
+                    <p>Kanmani Covering Jewels</p>
+                    <div
+                        style="margin-top:8px;font-size:10.5px;background:rgba(200,151,58,0.2);border-radius:4px;padding:3px 8px;color:var(--gold-light);display:inline-block">
+                        Demo Mode</div>
+                </div>
+                <div class="admin-nav-item active" onclick="showAdminSection('dashboard',event)"><i
+                        class="fas fa-chart-pie"></i> Dashboard</div>
+                <div class="admin-nav-item" onclick="showAdminSection('orders',event)"><i
+                        class="fas fa-shopping-bag"></i> Orders</div>
+                <div class="admin-nav-item" onclick="showAdminSection('products',event)"><i class="fas fa-gem"></i>
+                    Products</div>
+                <div class="admin-nav-item" onclick="showAdminSection('customers',event)"><i class="fas fa-users"></i>
+                    Customers</div>
+                <div class="admin-nav-item" onclick="showAdminSection('coupons',event)"><i class="fas fa-tag"></i>
+                    Coupons</div>
+                <div class="admin-nav-item" onclick="showAdminSection('settings',event)"><i class="fas fa-cog"></i>
+                    Settings</div>
+                <div class="admin-nav-item" style="margin-top:30px" onclick="showPage('home')"><i
+                        class="fas fa-external-link-alt"></i> View Site</div>
+            </div>
+            <div class="admin-content">
+                <div class="admin-section active" id="admin-dashboard">
+                    <div class="admin-header">
+                        <div class="admin-title">📊 Dashboard</div><button class="btn-gold"
+                            style="padding:8px 16px;font-size:13px">Export Report</button>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon revenue"><i class="fas fa-rupee-sign"></i></div>
+                            <div>
+                                <div class="stat-val">₹2,48,650</div>
+                                <div class="stat-lbl">Total Revenue</div>
+                                <div class="stat-change up">↑ 18.5% vs last month</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon orders"><i class="fas fa-shopping-bag"></i></div>
+                            <div>
+                                <div class="stat-val">1,247</div>
+                                <div class="stat-lbl">Total Orders</div>
+                                <div class="stat-change up">↑ 12.3%</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon products"><i class="fas fa-gem"></i></div>
+                            <div>
+                                <div class="stat-val">5,234</div>
+                                <div class="stat-lbl">Products</div>
+                                <div class="stat-change up">↑ 45 new</div>
+                            </div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon customers"><i class="fas fa-users"></i></div>
+                            <div>
+                                <div class="stat-val">52,180</div>
+                                <div class="stat-lbl">Customers</div>
+                                <div class="stat-change up">↑ 8.7%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="admin-table-card">
+                        <div class="table-header">
+                            <div class="table-title">Recent Orders</div>
+                        </div>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Customer</th>
+                                    <th>Items</th>
+                                    <th>Amount</th>
+                                    <th>Payment</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="adminRecentOrders"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="admin-section" id="admin-orders">
+                    <div class="admin-header">
+                        <div class="admin-title">🛍 All Orders</div>
+                    </div>
+                    <div class="admin-table-card">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Order ID</th>
+                                    <th>Date</th>
+                                    <th>Customer</th>
+                                    <th>City</th>
+                                    <th>Amount</th>
+                                    <th>Payment</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="adminAllOrders"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="admin-section" id="admin-products">
+                    <div class="admin-header">
+                        <div class="admin-title">💎 Products</div><button class="btn-gold"
+                            style="padding:8px 16px;font-size:13px" onclick="showModal('addProductModal')"><i
+                                class="fas fa-plus"></i> Add Product</button>
+                    </div>
+                    <div class="admin-table-card">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Name</th>
+                                    <th>Category</th>
+                                    <th>Price</th>
+                                    <th>Stock</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="adminProductsTable"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="admin-section" id="admin-customers">
+                    <div class="admin-header">
+                        <div class="admin-title">👥 Customers</div>
+                    </div>
+                    <div class="admin-table-card">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Mobile</th>
+                                    <th>City</th>
+                                    <th>Orders</th>
+                                    <th>Total Spend</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody id="adminCustomersTable"></tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="admin-section" id="admin-coupons">
+                    <div class="admin-header">
+                        <div class="admin-title">🏷 Coupon Codes</div>
+                    </div>
+                    <div class="admin-table-card">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Code</th>
+                                    <th>Type</th>
+                                    <th>Discount</th>
+                                    <th>Min Order</th>
+                                    <th>Used</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>KANMANI10</strong></td>
+                                    <td>Percentage</td>
+                                    <td>10%</td>
+                                    <td>₹500</td>
+                                    <td>1,234</td>
+                                    <td><span class="status-badge status-delivered">Active</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>FLAT200</strong></td>
+                                    <td>Flat</td>
+                                    <td>₹200</td>
+                                    <td>₹1,500</td>
+                                    <td>456</td>
+                                    <td><span class="status-badge status-delivered">Active</span></td>
+                                </tr>
+                                <tr>
+                                    <td><strong>BRIDAL15</strong></td>
+                                    <td>Percentage</td>
+                                    <td>15%</td>
+                                    <td>₹3,000</td>
+                                    <td>89</td>
+                                    <td><span class="status-badge status-delivered">Active</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="admin-section" id="admin-settings">
+                    <div class="admin-header">
+                        <div class="admin-title">⚙️ Settings</div>
+                    </div>
+                    <div
+                        style="background:var(--white);border-radius:14px;padding:24px;border:1px solid rgba(200,151,58,0.2);max-width:500px">
+                        <h3
+                            style="font-family:'Cormorant',serif;color:var(--maroon);font-weight:700;margin-bottom:18px">
+                            Store Settings</h3>
+                        <div class="form-grp">
+                            <div class="admin-label">Store Name</div><input class="admin-input"
+                                value="Kanmani Covering Jewels">
+                        </div>
+                        <div class="form-grp">
+                            <div class="admin-label">GST Number</div><input class="admin-input" value="33XXXXX0000X1Z5">
+                        </div>
+                        <div class="form-grp">
+                            <div class="admin-label">Contact Email</div><input class="admin-input"
+                                value="info@kanmanijewels.com">
+                        </div>
+                        <div class="form-grp">
+                            <div class="admin-label">WhatsApp Number</div><input class="admin-input"
+                                value="+91 98765 43210">
+                        </div>
+                        <button class="btn-gold" onclick="showToast('Settings saved!','success')">Save Settings</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODALS -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal-box">
+            <button class="modal-close" onclick="closeModal('loginModal')">✕</button>
+            <div class="modal-title">Welcome Back 💎</div>
+            <div class="login-tabs">
+                <div class="login-tab active" onclick="switchTab(this,'loginForm')">Login</div>
+                <div class="login-tab" onclick="switchTab(this,'signupForm')">Sign Up</div>
+            </div>
+            <div id="loginForm">
+                <div class="form-grp"><label>Mobile / Email</label><input type="text" placeholder="+91 98765 43210"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <div class="form-grp"><label>Password</label><input type="password" placeholder="Enter your password"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <button class="btn-primary" style="width:100%;justify-content:center;margin-bottom:10px"
+                    onclick="closeModal('loginModal');showToast('Logged in successfully! Welcome back 🌸','success')">Login
+                    to My Account</button>
+            </div>
+            <div id="signupForm" style="display:none">
+                <div class="form-grp"><label>Full Name</label><input type="text" placeholder="Priya Lakshmi"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <div class="form-grp"><label>Mobile Number</label><input type="tel" placeholder="+91 98765 43210"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <div class="form-grp"><label>Password</label><input type="password"
+                        placeholder="Create a strong password"
+                        style="width:100%;padding:10px 13px;border:1.5px solid rgba(200,151,58,0.25);border-radius:8px;font-size:13.5px;background:var(--cream);">
+                </div>
+                <button class="btn-primary" style="width:100%;justify-content:center"
+                    onclick="closeModal('loginModal');showToast('Account created! Welcome to Kanmani family 🌸','success')">Create
+                    My Account</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="addProductModal">
+        <div class="modal-box" style="max-width:660px">
+            <button class="modal-close" onclick="closeModal('addProductModal')">✕</button>
+            <div class="modal-title">Add New Product</div>
+            <div class="admin-form">
+                <div>
+                    <div class="admin-label">Product Name *</div><input class="admin-input"
+                        placeholder="e.g. Temple Necklace Set">
+                </div>
+                <div>
+                    <div class="admin-label">Category *</div><select class="admin-select">
+                        <option>Necklaces</option>
+                        <option>Earrings</option>
+                        <option>Bangles</option>
+                        <option>Temple Jewelry</option>
+                        <option>Bridal Sets</option>
+                    </select>
+                </div>
+                <div>
+                    <div class="admin-label">Price (₹) *</div><input class="admin-input" type="number"
+                        placeholder="1850">
+                </div>
+                <div>
+                    <div class="admin-label">Stock *</div><input class="admin-input" type="number" placeholder="50">
+                </div>
+                <div class="full-width">
+                    <div class="admin-label">Description</div><textarea class="admin-textarea"
+                        placeholder="Describe the product…"></textarea>
+                </div>
+                <div class="full-width" style="display:flex;gap:10px;justify-content:flex-end">
+                    <button class="btn-outline" onclick="closeModal('addProductModal')">Cancel</button>
+                    <button class="btn-gold"
+                        onclick="closeModal('addProductModal');showToast('Product added successfully! ✅','success')">Add
+                        Product</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="paymentModal">
+        <div class="modal-box" style="text-align:center;max-width:400px">
+            <div id="paymentProcessing">
+                <div style="font-size:56px;margin-bottom:18px;animation:bounce 1.5s infinite">💳</div>
+                <div class="modal-title">Processing Payment…</div>
+                <p style="color:var(--text-light);margin-bottom:22px;font-size:13.5px">Please do not close this window
+                </p>
+                <div style="background:var(--cream);border-radius:10px;padding:14px;margin-bottom:18px">
+                    <div style="display:flex;justify-content:space-between;font-size:13.5px;margin-bottom:7px">
+                        <span>Amount</span><span id="payModalAmount"
+                            style="font-weight:700;color:var(--maroon)">₹0</span></div>
+                    <div style="display:flex;justify-content:space-between;font-size:13.5px"><span>Method</span><span
+                            id="payModalMethod">UPI</span></div>
+                </div>
+                <div style="display:flex;justify-content:center;gap:5px;margin-bottom:18px">
+                    <div
+                        style="width:9px;height:9px;border-radius:50%;background:var(--maroon);animation:bounce 0.8s infinite 0s">
+                    </div>
+                    <div
+                        style="width:9px;height:9px;border-radius:50%;background:var(--maroon);animation:bounce 0.8s infinite 0.15s">
+                    </div>
+                    <div
+                        style="width:9px;height:9px;border-radius:50%;background:var(--maroon);animation:bounce 0.8s infinite 0.3s">
+                    </div>
+                </div>
+                <div style="font-size:12px;color:var(--text-light)"><i class="fas fa-lock"></i> Secured by Razorpay ·
+                    256-bit SSL</div>
+            </div>
+            <div id="paymentSuccess" style="display:none">
+                <div
+                    style="width:76px;height:76px;border-radius:50%;background:linear-gradient(135deg,#2e7d32,#43a047);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:32px;color:#fff;animation:sPop 0.5s ease">
+                    ✓</div>
+                <div class="modal-title" style="color:#2e7d32">Payment Successful!</div>
+                <p style="color:var(--text-light);margin-bottom:14px;font-size:13.5px">Your order has been placed</p>
+                <div style="font-size:22px;font-weight:700;color:var(--maroon);margin-bottom:18px"
+                    id="paySuccessAmount">₹0</div>
+                <button class="btn-gold" style="width:100%;justify-content:center"
+                    onclick="closeModal('paymentModal');completeOrder()">View Order Confirmation</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* ═══════ DATA ═══════ */
+        const UNSPLASH = {
+            necklace: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80',
+            necklace2: 'https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500&q=80',
+            earring: 'https://images.unsplash.com/photo-1630019852942-f89202989a59?w=500&q=80',
+            earring2: 'https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=500&q=80',
+            bangle: 'https://images.unsplash.com/photo-1602751584552-8ba73aad10e1?w=500&q=80',
+            bangle2: 'https://images.unsplash.com/photo-1611085583191-a3b181a88401?w=500&q=80',
+            ring: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500&q=80',
+            ring2: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500&q=80',
+            bridal: 'https://images.unsplash.com/photo-1601121141461-9d6647bef0a1?w=500&q=80',
+            bridal2: 'https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=500&q=80',
+            gold1: 'https://images.unsplash.com/photo-1573408301185-9519f94816b5?w=500&q=80',
+            gold2: 'https://images.unsplash.com/photo-1586495777744-4e6232bf00a7?w=500&q=80',
+            anklet: 'https://images.unsplash.com/photo-1583292650898-7d22cd27ca6f?w=500&q=80',
+            chain: 'https://images.unsplash.com/photo-1590548784585-643d2b9f2925?w=500&q=80',
+            nose: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?w=500&q=80',
+            temple: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500&q=80',
+        };
+
+        const catImages = {
+            'Necklaces': UNSPLASH.necklace, 'Haram': UNSPLASH.necklace2, 'Chains': UNSPLASH.chain,
+            'Jhumkas': UNSPLASH.earring, 'Stud Earrings': UNSPLASH.earring2, 'Drop Earrings': UNSPLASH.gold1,
+            'Bangles': UNSPLASH.bangle, 'Bracelets': UNSPLASH.bangle2, 'Rings': UNSPLASH.ring,
+            'Nose Pins': UNSPLASH.nose, 'Maang Tikka': UNSPLASH.bridal2, 'Vaddanam': UNSPLASH.gold2,
+            'Anklets': UNSPLASH.anklet, 'Bridal Sets': UNSPLASH.bridal, 'Temple Jewelry': UNSPLASH.temple,
+            'Antique': UNSPLASH.gold1, 'Kids Jewelry': UNSPLASH.ring2, 'Nose Rings': UNSPLASH.nose,
+        };
+
+        const categories = [
+            { name: 'Necklaces', count: '234 items' }, { name: 'Haram', count: '89 items' }, { name: 'Chains', count: '156 items' },
+            { name: 'Jhumkas', count: '312 items' }, { name: 'Stud Earrings', count: '198 items' }, { name: 'Drop Earrings', count: '145 items' },
+            { name: 'Bangles', count: '267 items' }, { name: 'Bracelets', count: '178 items' }, { name: 'Rings', count: '423 items' },
+            { name: 'Nose Pins', count: '89 items' }, { name: 'Maang Tikka', count: '67 items' }, { name: 'Vaddanam', count: '45 items' },
+            { name: 'Anklets', count: '123 items' }, { name: 'Bridal Sets', count: '56 items' }, { name: 'Temple Jewelry', count: '234 items' },
+            { name: 'Antique', count: '167 items' }, { name: 'Kids Jewelry', count: '89 items' }, { name: 'Nose Rings', count: '45 items' },
+        ];
+
+        const products = [
+            { id: 1, name: 'Temple Lakshmi Necklace Set', price: 1850, oldPrice: 2600, cat: 'Necklaces', img: UNSPLASH.necklace, tags: ['best', 'new'], rating: 5, reviews: 124, weight: '45g', material: 'One Gram Gold', stone: 'Kemp, Polki', discount: 29 },
+            { id: 2, name: 'Grand Bridal Jhumka Set', price: 980, oldPrice: 1400, cat: 'Jhumkas', img: UNSPLASH.earring, tags: ['sale', 'best'], rating: 5, reviews: 89, weight: '32g', material: 'Microgold', stone: 'Emerald, Ruby', discount: 30 },
+            { id: 3, name: 'Traditional Bangle Set (12 pcs)', price: 2450, oldPrice: 3200, cat: 'Bangles', img: UNSPLASH.bangle, tags: ['new', 'trending'], rating: 4, reviews: 67, weight: '180g', material: 'Gold Plated', stone: 'None', discount: 23 },
+            { id: 4, name: 'Antique Maang Tikka', price: 650, oldPrice: 900, cat: 'Maang Tikka', img: UNSPLASH.bridal2, tags: ['sale'], rating: 5, reviews: 203, weight: '28g', material: 'Antique Finish', stone: 'Kemp', discount: 28 },
+            { id: 5, name: 'Peacock Vaddanam (Waist Belt)', price: 3200, oldPrice: 4500, cat: 'Vaddanam', img: UNSPLASH.gold2, tags: ['new', 'best'], rating: 5, reviews: 45, weight: '220g', material: 'One Gram Gold', stone: 'Multi-color', discount: 29 },
+            { id: 6, name: 'Daily Wear Gold Chain', price: 480, oldPrice: 650, cat: 'Chains', img: UNSPLASH.chain, tags: ['best'], rating: 4, reviews: 312, weight: '18g', material: 'Gold Plated', stone: 'None', discount: 26 },
+            { id: 7, name: 'Temple Deity Haram Set', price: 4200, oldPrice: 5800, cat: 'Haram', img: UNSPLASH.necklace2, tags: ['new'], rating: 5, reviews: 34, weight: '85g', material: 'One Gram Gold', stone: 'Kemp, Coral', discount: 28 },
+            { id: 8, name: 'Stone Studded Ring Set', price: 720, oldPrice: 1000, cat: 'Rings', img: UNSPLASH.ring, tags: ['sale', 'trending'], rating: 4, reviews: 156, weight: '24g', material: 'Microgold', stone: 'CZ Stones', discount: 28 },
+            { id: 9, name: 'Bridal Nose Pin Set', price: 380, oldPrice: 500, cat: 'Nose Pins', img: UNSPLASH.nose, tags: ['new'], rating: 5, reviews: 78, weight: '5g', material: 'Gold Plated', stone: 'Ruby', discount: 24 },
+            { id: 10, name: 'Silver Anklet Pair (Kolusu)', price: 560, oldPrice: 750, cat: 'Anklets', img: UNSPLASH.anklet, tags: ['best'], rating: 4, reviews: 189, weight: '35g', material: 'Microgold', stone: 'None', discount: 25 },
+            { id: 11, name: 'Full Bridal Jewelry Set', price: 8500, oldPrice: 12000, cat: 'Bridal Sets', img: UNSPLASH.bridal, tags: ['new', 'best'], rating: 5, reviews: 23, weight: '350g', material: 'One Gram Gold', stone: 'Multi-stone', discount: 29 },
+            { id: 12, name: 'Kids Gold Plated Set', price: 420, oldPrice: 580, cat: 'Kids Jewelry', img: UNSPLASH.ring2, tags: ['sale'], rating: 5, reviews: 145, weight: '15g', material: 'Gold Plated', stone: 'CZ', discount: 28 },
+            { id: 13, name: 'Antique Temple Earrings', price: 850, oldPrice: 1200, cat: 'Temple Jewelry', img: UNSPLASH.temple, tags: ['new', 'trending'], rating: 5, reviews: 67, weight: '38g', material: 'Antique Finish', stone: 'Kemp', discount: 29 },
+            { id: 14, name: 'Oxidised Boho Bracelet', price: 340, oldPrice: 480, cat: 'Bracelets', img: UNSPLASH.bangle2, tags: ['sale'], rating: 4, reviews: 234, weight: '20g', material: 'Antique Finish', stone: 'Turquoise', discount: 29 },
+            { id: 15, name: 'Layered Stone Necklace', price: 1350, oldPrice: 1900, cat: 'Necklaces', img: UNSPLASH.gold1, tags: ['trending'], rating: 4, reviews: 89, weight: '52g', material: 'Microgold', stone: 'Kemp, Pearl', discount: 29 },
+            { id: 16, name: 'Drop Pearl Earrings', price: 620, oldPrice: 850, cat: 'Drop Earrings', img: UNSPLASH.earring2, tags: ['new'], rating: 5, reviews: 112, weight: '22g', material: 'Gold Plated', stone: 'Pearl', discount: 27 },
+        ];
+
+        const bridalSets = [
+            { name: 'Maharani Bridal Set', price: 8500, oldPrice: 12000, img: UNSPLASH.bridal, label: 'BESTSELLER', items: 'Necklace + Haram + Jhumkas + Bangles + Tikka + Vaddanam' },
+            { name: 'Temple Queen Set', price: 6800, oldPrice: 9500, img: UNSPLASH.temple, label: 'NEW ARRIVAL', items: 'Temple Necklace + Earrings + Bangles + Maang Tikka' },
+            { name: 'Antique Bridal Collection', price: 7200, oldPrice: 10000, img: UNSPLASH.gold1, label: 'TRENDING', items: 'Antique Necklace + Jhumkas + Bangles + Tikka' },
+            { name: 'South Indian Traditional Set', price: 9200, oldPrice: 13000, img: UNSPLASH.bridal2, label: 'PREMIUM', items: 'Lakshmi Haram + Kemp Earrings + Bangles + Vaddanam + Tikka' },
+            { name: 'Peacock Bridal Ensemble', price: 11000, oldPrice: 15000, img: UNSPLASH.necklace2, label: 'EXCLUSIVE', items: 'Peacock Necklace + Earrings + Bangles + Vaddanam + Tikka + Anklets' },
+            { name: 'Budget Bridal Set', price: 3500, oldPrice: 5000, img: UNSPLASH.gold2, label: 'VALUE PICK', items: 'Necklace + Earrings + Bangles + Tikka' },
+        ];
+
+        const adminOrders = [
+            { id: 'KCJ-2024-78523', date: '13 Nov', customer: 'Priya Lakshmi', city: 'Chennai', items: 3, amount: '₹2,850', payment: 'UPI', status: 'shipped' },
+            { id: 'KCJ-2024-78522', date: '13 Nov', customer: 'Meenakshi R', city: 'Coimbatore', items: 1, amount: '₹1,850', payment: 'Card', status: 'processing' },
+            { id: 'KCJ-2024-78521', date: '12 Nov', customer: 'Savitha Reddy', city: 'Hyderabad', items: 5, amount: '₹4,200', payment: 'GPay', status: 'delivered' },
+            { id: 'KCJ-2024-78520', date: '12 Nov', customer: 'Lakshmi Devi', city: 'Madurai', items: 2, amount: '₹1,230', payment: 'COD', status: 'pending' },
+            { id: 'KCJ-2024-78519', date: '11 Nov', customer: 'Anitha Kumar', city: 'Salem', items: 1, amount: '₹650', payment: 'PhonePe', status: 'delivered' },
+        ];
+
+        const customers = [
+            { name: 'Priya Lakshmi', mobile: '+91 98765 43210', city: 'Chennai', orders: 12, spend: '₹18,450', joined: 'Jan 2023', status: 'active' },
+            { name: 'Meenakshi R', mobile: '+91 87654 32109', city: 'Coimbatore', orders: 8, spend: '₹11,200', joined: 'Mar 2023', status: 'active' },
+            { name: 'Savitha Reddy', mobile: '+91 76543 21098', city: 'Hyderabad', orders: 15, spend: '₹24,800', joined: 'Nov 2022', status: 'active' },
+            { name: 'Lakshmi Devi', mobile: '+91 65432 10987', city: 'Madurai', orders: 3, spend: '₹4,200', joined: 'Aug 2024', status: 'new' },
+        ];
+
+        /* ═══════ STATE ═══════ */
+        let cart = [], wishlist = [], currentProduct = null, selectedPaymentMethod = 'upi', cartDiscountAmt = 0, currentSlide = 0, orderIdCounter = 78524;
+
+        /* ═══════ PAGE ═══════ */
+        function showPage(name) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            const p = document.getElementById('page-' + name);
+            if (p) { p.classList.add('active'); window.scrollTo(0, 0); }
+            if (name === 'cart') renderCart();
+            if (name === 'checkout') renderCheckoutSummary();
+            if (name === 'wishlist') renderWishlist();
+        }
+
+        /* ═══════ RENDER ═══════ */
+        function renderCategories() {
+            const g = document.getElementById('categoriesGrid'); if (!g) return;
+            g.innerHTML = categories.map(c => `
+    <div class="cat-card" onclick="showPage('shop');filterCategory('${c.name}')">
+      <div class="cat-img-wrap"><img src="${catImages[c.name] || UNSPLASH.necklace}" alt="${c.name}" loading="lazy" onerror="this.src='${UNSPLASH.necklace}'"></div>
+      <div class="cat-info"><div class="cat-name">${c.name}</div><div class="cat-count">${c.count}</div></div>
+    </div>`).join('');
+        }
+
+        function renderProductCard(p) {
+            const stars = '★'.repeat(Math.round(p.rating)) + '☆'.repeat(5 - Math.round(p.rating));
+            const tagsHtml = p.tags.map(t => {
+                const cls = t === 'new' ? 'ptag-new' : t === 'sale' ? 'ptag-sale' : t === 'best' ? 'ptag-best' : 'ptag-trend';
+                const lbl = t === 'new' ? 'NEW' : t === 'sale' ? `${p.discount}% OFF` : t === 'best' ? 'BESTSELLER' : 'TRENDING';
+                return `<span class="ptag ${cls}">${lbl}</span>`;
+            }).join('');
+            const isWl = wishlist.includes(p.id);
+            return `<div class="prod-card" onclick="openProduct(${p.id})">
+    <div class="prod-img-wrap">
+      <img src="${p.img}" alt="${p.name}" loading="lazy" onerror="this.src='${UNSPLASH.necklace}'">
+      <div class="prod-tags">${tagsHtml}</div>
+      <button class="wl-btn ${isWl ? 'active' : ''}" onclick="event.stopPropagation();toggleWishlist(${p.id},this)">${isWl ? '❤️' : '🤍'}</button>
+    </div>
+    <div class="prod-info">
+      <div class="prod-name">${p.name}</div>
+      <div class="prod-weight">${p.weight} · ${p.material}</div>
+      <div class="stars">${stars} <span>(${p.reviews})</span></div>
+      <div class="price-row"><span class="price-now">₹${p.price.toLocaleString('en-IN')}</span><span class="price-was">₹${p.oldPrice.toLocaleString('en-IN')}</span><span class="price-off">${p.discount}% off</span></div>
+      <div class="prod-actions">
+        <button class="btn-cart" onclick="event.stopPropagation();addToCart(${p.id})"><i class="fas fa-shopping-bag"></i> Add to Cart</button>
+        <button class="btn-wa" onclick="event.stopPropagation();showToast('WhatsApp order for ${p.name} 💬','success')"><i class="fab fa-whatsapp"></i></button>
+      </div>
+    </div>
+  </div>`;
+        }
+
+        function renderBestsellers() { const g = document.getElementById('bestsellersGrid'); if (!g) return; g.innerHTML = products.filter(p => p.tags.includes('best')).slice(0, 8).map(renderProductCard).join(''); }
+        function renderNewArrivals() { const g = document.getElementById('newArrivalsGrid'); if (!g) return; g.innerHTML = products.filter(p => p.tags.includes('new')).slice(0, 8).map(renderProductCard).join(''); }
+        function renderShopProducts(list) { const g = document.getElementById('shopProductsGrid'); if (!g) return; g.innerHTML = (list || products).map(renderProductCard).join(''); const c = document.getElementById('shopResultCount'); if (c) c.innerHTML = `Showing <strong>${(list || products).length}</strong> products`; }
+        function renderRelated(cat) { const g = document.getElementById('relatedGrid'); if (!g) return; g.innerHTML = products.filter(p => p.cat === cat).slice(0, 4).map(renderProductCard).join(''); }
+
+        function renderBridal() {
+            const g = document.getElementById('bridalGrid'); if (!g) return;
+            g.innerHTML = bridalSets.map(s => `
+    <div class="bridal-card">
+      <div class="bridal-img"><img src="${s.img}" alt="${s.name}" loading="lazy" onerror="this.src='${UNSPLASH.bridal}'"><span class="bridal-label">${s.label}</span></div>
+      <div class="bridal-info">
+        <div class="bridal-name">${s.name}</div>
+        <div style="font-size:12.5px;color:var(--text-light);margin:5px 0 10px">${s.items}</div>
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <div><span class="bridal-price">₹${s.price.toLocaleString('en-IN')}</span><span style="font-size:13px;color:var(--text-light);text-decoration:line-through;margin-left:7px">₹${s.oldPrice.toLocaleString('en-IN')}</span></div>
+          <button class="btn-cart" style="padding:8px 14px;font-size:12.5px" onclick="showToast('${s.name} added to cart! 🛍','success')">Add to Cart</button>
+        </div>
+      </div>
+    </div>`).join('');
+        }
+
+        /* ═══════ PRODUCT DETAIL ═══════ */
+        function openProduct(id) {
+            const p = products.find(x => x.id === id); if (!p) return;
+            currentProduct = p;
+            document.getElementById('detailMainImg').src = p.img;
+            document.getElementById('detailMainImg').alt = p.name;
+            document.getElementById('detailName').textContent = p.name;
+            document.getElementById('detailCategory').textContent = p.cat;
+            document.getElementById('detailPrice').textContent = '₹' + p.price.toLocaleString('en-IN');
+            document.getElementById('detailOldPrice').textContent = '₹' + p.oldPrice.toLocaleString('en-IN');
+            document.getElementById('detailSaving').textContent = `You save ₹${(p.oldPrice - p.price).toLocaleString('en-IN')} (${p.discount}%)`;
+            document.getElementById('detailDesc').textContent = `Beautifully handcrafted ${p.name.toLowerCase()}, made with premium ${p.material}. Perfect for festivals, weddings, and special occasions.`;
+            document.getElementById('specMaterial').textContent = p.material;
+            document.getElementById('specStone').textContent = p.stone;
+            document.getElementById('specWeight').textContent = p.weight;
+            document.getElementById('specSKU').textContent = 'KCJ-' + p.id.toString().padStart(3, '0');
+            document.getElementById('detailStars').textContent = '★'.repeat(Math.round(p.rating)) + '☆'.repeat(5 - Math.round(p.rating));
+            document.getElementById('detailReviews').textContent = `(${p.reviews} reviews)`;
+            const tag = p.tags[0]; const dt = document.getElementById('detailTag');
+            dt.textContent = tag === 'best' ? 'BESTSELLER' : tag === 'new' ? 'NEW ARRIVAL' : tag === 'sale' ? `${p.discount}% OFF` : 'TRENDING';
+            dt.className = `ptag ptag-${tag === 'best' ? 'best' : tag === 'new' ? 'new' : tag === 'sale' ? 'sale' : 'trend'}`;
+            const thumbRow = document.getElementById('detailThumbs');
+            thumbRow.innerHTML = [p.img, UNSPLASH.necklace2, UNSPLASH.earring, UNSPLASH.gold1].map((img, i) => `
+    <div class="thumb ${i === 0 ? 'active' : ''}" onclick="document.getElementById('detailMainImg').src='${img}';document.querySelectorAll('.thumb').forEach(t=>t.classList.remove('active'));this.classList.add('active')"><img src="${img}" alt="" onerror="this.src='${UNSPLASH.necklace}'"></div>`).join('');
+            document.getElementById('qtyInput').value = 1;
+            document.querySelectorAll('.size-btn').forEach((b, i) => b.classList.toggle('active', i === 0));
+            renderRelated(p.cat);
+            showPage('product');
+        }
+
+        function addCurrentToCart() { if (!currentProduct) return; const qty = parseInt(document.getElementById('qtyInput').value) || 1; for (let i = 0; i < qty; i++)addToCart(currentProduct.id, false); showToast(`${currentProduct.name} added to cart! 🛍`, 'success'); updateBadges(); }
+        function buyNow() { if (!currentProduct) return; addCurrentToCart(); showPage('checkout'); renderCheckoutSummary(); }
+        function selectSize(btn) { btn.parentNode.querySelectorAll('.size-btn').forEach(b => b.classList.remove('active')); btn.classList.add('active'); }
+        function changeQty(d) { const i = document.getElementById('qtyInput'); i.value = Math.max(1, Math.min(10, parseInt(i.value) + d)); }
+
+        /* ═══════ CART ═══════ */
+        function addToCart(id, notify = true) {
+            const p = products.find(x => x.id === id); if (!p) return;
+            const ex = cart.find(i => i.id === id);
+            if (ex) ex.qty++; else cart.push({ ...p, qty: 1 });
+            updateBadges();
+            if (notify) showToast(`${p.name} added to cart! 🛍`, 'success');
+        }
+        function updateBadges() { document.getElementById('cartBadge').textContent = cart.reduce((s, i) => s + i.qty, 0); document.getElementById('wishlistBadge').textContent = wishlist.length; }
+        function renderCart() {
+            const cont = document.getElementById('cartItemsContainer');
+            const ce = document.getElementById('cartCountDisplay');
+            const total = cart.reduce((s, i) => s + i.qty, 0);
+            if (ce) ce.textContent = total;
+            if (!cont) return;
+            if (!cart.length) { cont.innerHTML = `<div style="text-align:center;padding:44px;color:var(--text-light)"><i class="fas fa-shopping-bag" style="font-size:46px;margin-bottom:14px;display:block;opacity:0.3"></i>Your cart is empty. <a onclick="showPage('shop')" style="color:var(--maroon);cursor:pointer;font-weight:600">Continue Shopping →</a></div>`; updateCartSummary(); return; }
+            cont.innerHTML = cart.map(item => `
+    <div class="cart-item">
+      <div class="cart-item-img"><img src="${item.img}" alt="${item.name}" onerror="this.src='${UNSPLASH.necklace}'"></div>
+      <div class="cart-item-info">
+        <h4>${item.name}</h4>
+        <p>${item.material} · ${item.weight}</p>
+        <div style="display:flex;gap:8px;align-items:center">
+          <button class="qty-btn" onclick="updateCartQty(${item.id},-1)">−</button>
+          <span style="font-weight:700">${item.qty}</span>
+          <button class="qty-btn" onclick="updateCartQty(${item.id},1)">+</button>
+        </div>
+      </div>
+      <div style="text-align:right">
+        <div class="cart-item-price">₹${(item.price * item.qty).toLocaleString('en-IN')}</div>
+        <div style="font-size:11.5px;color:var(--text-light)">₹${item.price.toLocaleString('en-IN')} each</div>
+        <button class="remove-btn" onclick="removeFromCart(${item.id})"><i class="fas fa-trash"></i> Remove</button>
+      </div>
+    </div>`).join('');
+            updateCartSummary();
+        }
+        function updateCartQty(id, d) { const item = cart.find(i => i.id === id); if (!item) return; item.qty += d; if (item.qty <= 0) cart = cart.filter(i => i.id !== id); updateBadges(); renderCart(); }
+        function removeFromCart(id) { cart = cart.filter(i => i.id !== id); updateBadges(); renderCart(); }
+        function updateCartSummary() {
+            const sub = cart.reduce((s, i) => s + i.price * i.qty, 0);
+            const ship = sub >= 999 ? 0 : 60; const tot = sub + ship - cartDiscountAmt;
+            const f = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
+            f('cartSubtotal', '₹' + sub.toLocaleString('en-IN'));
+            f('cartShipping', ship === 0 ? 'FREE' : '₹60');
+            f('cartDiscount', '-₹' + cartDiscountAmt.toLocaleString('en-IN'));
+            f('cartTotal', '₹' + Math.max(0, tot).toLocaleString('en-IN'));
+        }
+        function applyCoupon() {
+            const code = document.getElementById('couponInput').value.trim().toUpperCase();
+            const sub = cart.reduce((s, i) => s + i.price * i.qty, 0);
+            if (code === 'KANMANI10') { cartDiscountAmt = Math.round(sub * 0.10); showToast('10% discount applied! ✅', 'success'); }
+            else if (code === 'FLAT200') { cartDiscountAmt = 200; showToast('Flat ₹200 off applied! ✅', 'success'); }
+            else if (code === 'BRIDAL15') { cartDiscountAmt = Math.round(sub * 0.15); showToast('Bridal 15% off applied! ✅', 'success'); }
+            else { showToast('Invalid coupon. Try KANMANI10 ❌', 'success'); return; }
+            renderCart();
+        }
+        function renderCheckoutSummary() {
+            const cont = document.getElementById('checkoutItems');
+            const sub = cart.reduce((s, i) => s + i.price * i.qty, 0); const tot = sub - cartDiscountAmt;
+            if (cont) cont.innerHTML = cart.map(i => `<div style="display:flex;align-items:center;gap:9px;padding:7px 0;border-bottom:1px solid rgba(200,151,58,0.15)"><img src="${i.img}" alt="${i.name}" style="width:36px;height:36px;border-radius:6px;object-fit:cover;" onerror="this.src='${UNSPLASH.necklace}'"><div style="flex:1"><div style="font-size:13px;font-weight:600">${i.name}</div><div style="font-size:11.5px;color:var(--text-light)">Qty: ${i.qty}</div></div><div style="font-weight:700;color:var(--maroon)">₹${(i.price * i.qty).toLocaleString('en-IN')}</div></div>`).join('') || '<p style="text-align:center;color:var(--text-light);font-size:13.5px">Cart is empty</p>';
+            const f = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
+            f('chkSubtotal', '₹' + sub.toLocaleString('en-IN')); f('chkTotal', '₹' + Math.max(0, tot).toLocaleString('en-IN'));
+        }
+
+        /* ═══════ WISHLIST ═══════ */
+        function toggleWishlist(id, btn) {
+            const idx = wishlist.indexOf(id);
+            if (idx >= 0) { wishlist.splice(idx, 1); if (btn) { btn.innerHTML = '🤍'; btn.classList.remove('active'); } showToast('Removed from wishlist', 'success'); }
+            else { wishlist.push(id); if (btn) { btn.innerHTML = '❤️'; btn.classList.add('active'); } showToast('Added to wishlist! ❤️', 'success'); }
+            updateBadges();
+        }
+        function addToWishlist() { if (currentProduct) toggleWishlist(currentProduct.id, null); }
+        function renderWishlist() {
+            const g = document.getElementById('wishlistGrid'); if (!g) return;
+            if (!wishlist.length) { g.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:60px;color:var(--text-light)"><i class="far fa-heart" style="font-size:54px;margin-bottom:14px;display:block;opacity:0.25"></i><p style="font-size:17px;margin-bottom:14px">Your wishlist is empty</p><button class="btn-primary" onclick="showPage('shop')">Explore Products</button></div>`; return; }
+            g.innerHTML = products.filter(p => wishlist.includes(p.id)).map(renderProductCard).join('');
+        }
+
+        /* ═══════ PAYMENT ═══════ */
+        function selectPayment(el, method) {
+            document.querySelectorAll('.pay-opt').forEach(o => o.classList.remove('selected'));
+            el.classList.add('selected'); selectedPaymentMethod = method;
+            document.getElementById('upiSection').style.display = (method === 'upi' || method === 'gpay' || method === 'phonepe') ? 'block' : 'none';
+            document.getElementById('cardSection').style.display = method === 'card' ? 'block' : 'none';
+            document.getElementById('codSection').style.display = method === 'cod' ? 'block' : 'none';
+        }
+        function formatCard(input) { let v = input.value.replace(/\D/g, '').substring(0, 16); input.value = v.replace(/(.{4})/g, '$1 ').trim(); }
+        function placeOrder() {
+            const fname = document.getElementById('chkFName')?.value;
+            const phone = document.getElementById('chkPhone')?.value;
+            const addr = document.getElementById('chkAddr')?.value;
+            if (!fname || !phone || !addr) { showToast('Please fill in all required fields ⚠️', 'success'); return; }
+            if (!cart.length) { showToast('Your cart is empty! ⚠️', 'success'); return; }
+            const total = cart.reduce((s, i) => s + i.price * i.qty, 0) - cartDiscountAmt;
+            const mLabels = { upi: 'UPI', card: 'Credit/Debit Card', netbanking: 'Net Banking', gpay: 'Google Pay', phonepe: 'PhonePe', cod: 'Cash on Delivery' };
+            document.getElementById('payModalAmount').textContent = '₹' + Math.max(0, total).toLocaleString('en-IN');
+            document.getElementById('payModalMethod').textContent = mLabels[selectedPaymentMethod] || selectedPaymentMethod;
+            document.getElementById('paymentProcessing').style.display = 'block';
+            document.getElementById('paymentSuccess').style.display = 'none';
+            showModal('paymentModal');
+            setTimeout(() => {
+                document.getElementById('paymentProcessing').style.display = 'none';
+                document.getElementById('paymentSuccess').style.display = 'block';
+                document.getElementById('paySuccessAmount').textContent = '₹' + Math.max(0, total).toLocaleString('en-IN');
+            }, 2500);
+            window._lastOrder = { total, method: mLabels[selectedPaymentMethod] };
+        }
+        function completeOrder() {
+            const orderId = 'KCJ-2024-' + (++orderIdCounter);
+            document.getElementById('displayOrderId').textContent = orderId;
+            document.getElementById('successTotal').textContent = '₹' + (window._lastOrder?.total || 0).toLocaleString('en-IN');
+            document.getElementById('successPayment').textContent = window._lastOrder?.method || 'UPI';
+            cart = []; cartDiscountAmt = 0; updateBadges(); showPage('success');
+        }
+
+        /* ═══════ FILTERS ═══════ */
+        function filterCategory(cat) { renderShopProducts(products.filter(p => p.cat === cat || p.name.toLowerCase().includes(cat.toLowerCase()))); }
+        function applyFilters() { const minP = parseInt(document.getElementById('minPrice')?.value) || 0; const maxP = parseInt(document.getElementById('maxPrice')?.value) || 99999; renderShopProducts(products.filter(p => p.price >= minP && p.price <= maxP)); }
+        function setPriceRange(min, max) { document.getElementById('minPrice').value = min || ''; document.getElementById('maxPrice').value = max === 99999 ? '' : max; applyFilters(); }
+        function clearFilters() { document.getElementById('minPrice').value = ''; document.getElementById('maxPrice').value = ''; document.querySelectorAll('.filter-opt input').forEach(cb => cb.checked = false); renderShopProducts(products); }
+        function sortProducts(by) {
+            let sorted = [...products];
+            if (by === 'price-low') sorted.sort((a, b) => a.price - b.price);
+            else if (by === 'price-high') sorted.sort((a, b) => b.price - a.price);
+            else if (by === 'newest') sorted = sorted.filter(p => p.tags.includes('new')).concat(sorted.filter(p => !p.tags.includes('new')));
+            else if (by === 'rating') sorted.sort((a, b) => b.rating - a.rating);
+            renderShopProducts(sorted);
+        }
+        function handleSearch(val) { }
+        function doSearch() {
+            const val = document.getElementById('searchInput').value.trim().toLowerCase(); if (!val) return;
+            const filtered = products.filter(p => p.name.toLowerCase().includes(val) || p.cat.toLowerCase().includes(val) || p.material.toLowerCase().includes(val));
+            showPage('shop'); renderShopProducts(filtered);
+        }
+
+        /* ═══════ SLIDER ═══════ */
+        function initSlider() {
+            const slides = document.querySelectorAll('.slide');
+            const dc = document.getElementById('sliderDots'); if (!dc) return;
+            slides.forEach((_, i) => { const d = document.createElement('div'); d.className = 'sl-dot' + (i === 0 ? ' active' : ''); d.onclick = () => goToSlide(i); dc.appendChild(d); });
+            setInterval(() => changeSlide(1), 4000);
+        }
+        function changeSlide(dir) {
+            const slides = document.querySelectorAll('.slide'); const dots = document.querySelectorAll('.sl-dot');
+            slides[currentSlide].classList.remove('active'); dots[currentSlide]?.classList.remove('active');
+            currentSlide = (currentSlide + dir + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active'); dots[currentSlide]?.classList.add('active');
+        }
+        function goToSlide(i) { document.querySelectorAll('.slide')[currentSlide]?.classList.remove('active'); document.querySelectorAll('.sl-dot')[currentSlide]?.classList.remove('active'); currentSlide = i; document.querySelectorAll('.slide')[i]?.classList.add('active'); document.querySelectorAll('.sl-dot')[i]?.classList.add('active'); }
+
+        /* ═══════ MODALS ═══════ */
+        function showModal(id) { document.getElementById(id)?.classList.add('open'); }
+        function closeModal(id) { document.getElementById(id)?.classList.remove('open'); }
+        function switchTab(el, formId) { document.querySelectorAll('.login-tab').forEach(t => t.classList.remove('active')); el.classList.add('active'); document.getElementById('loginForm').style.display = formId === 'loginForm' ? 'block' : 'none'; document.getElementById('signupForm').style.display = formId === 'signupForm' ? 'block' : 'none'; }
+        document.querySelectorAll('.modal-overlay').forEach(m => { m.addEventListener('click', e => { if (e.target === m && m.id !== 'paymentModal') closeModal(m.id); }); });
+
+        /* ═══════ TOAST ═══════ */
+        function showToast(msg) {
+            const cont = document.getElementById('toastContainer');
+            const t = document.createElement('div'); t.className = 'toast';
+            t.innerHTML = `<i class="fas fa-check-circle"></i> ${msg}`;
+            cont.appendChild(t);
+            setTimeout(() => { t.style.opacity = '0'; t.style.transform = 'translateY(16px)'; t.style.transition = 'all 0.3s'; setTimeout(() => t.remove(), 300); }, 3000);
+        }
+
+        /* ═══════ ADMIN ═══════ */
+        function showAdminSection(name, ev) {
+            document.querySelectorAll('.admin-section').forEach(s => s.classList.remove('active'));
+            document.getElementById('admin-' + name)?.classList.add('active');
+            document.querySelectorAll('.admin-nav-item').forEach(n => n.classList.remove('active'));
+            if (ev) ev.currentTarget.classList.add('active');
+        }
+        function renderAdminOrders() {
+            const statusMap = { shipped: 'status-shipped', processing: 'status-processing', delivered: 'status-delivered', pending: 'status-pending', cancelled: 'status-cancelled' };
+            const statusLabel = { shipped: 'Shipped', processing: 'Processing', delivered: 'Delivered', pending: 'Pending', cancelled: 'Cancelled' };
+            const rows = adminOrders.map(o => `<tr><td><strong style="color:var(--maroon)">${o.id}</strong></td><td>${o.date}</td><td>${o.customer}</td><td>${o.city}</td><td><strong>${o.amount}</strong></td><td>${o.payment}</td><td><span class="status-badge ${statusMap[o.status]}">${statusLabel[o.status]}</span></td></tr>`).join('');
+            const e1 = document.getElementById('adminRecentOrders'); if (e1) e1.innerHTML = rows;
+            const e2 = document.getElementById('adminAllOrders'); if (e2) e2.innerHTML = rows;
+        }
+        function renderAdminProducts() {
+            const e = document.getElementById('adminProductsTable'); if (!e) return;
+            e.innerHTML = products.slice(0, 10).map(p => `<tr><td><img src="${p.img}" alt="" style="width:40px;height:40px;object-fit:cover;border-radius:8px;" onerror="this.src='${UNSPLASH.necklace}'"></td><td><strong>${p.name}</strong></td><td>${p.cat}</td><td>₹${p.price.toLocaleString('en-IN')}</td><td>${Math.floor(Math.random() * 50) + 5}</td><td><span class="status-badge status-delivered">Active</span></td></tr>`).join('');
+        }
+        function renderAdminCustomers() {
+            const e = document.getElementById('adminCustomersTable'); if (!e) return;
+            e.innerHTML = customers.map(c => `<tr><td><strong>${c.name}</strong></td><td>${c.mobile}</td><td>${c.city}</td><td style="text-align:center">${c.orders}</td><td><strong>${c.spend}</strong></td><td><span class="status-badge ${c.status === 'active' ? 'status-delivered' : 'status-processing'}">${c.status === 'active' ? 'Active' : 'New'}</span></td></tr>`).join('');
+        }
+        function renderCategoryFilters() {
+            const e = document.getElementById('categoryFilters'); if (!e) return;
+            const cats = [...new Set(products.map(p => p.cat))];
+            e.innerHTML = cats.map(c => `<div class="filter-opt"><input type="checkbox" onchange="if(this.checked){filterCategory('${c}')}else{clearFilters()}"><label>${c}</label><span class="ct">${products.filter(p => p.cat === c).length}</span></div>`).join('');
+        }
+        function trackOrder() {
+            const id = document.getElementById('trackOrderId')?.value; const phone = document.getElementById('trackPhone')?.value;
+            if (!id || !phone) { showToast('Please enter Order ID and mobile number ⚠️'); return; }
+            document.getElementById('trackResult').style.display = 'block'; showToast('Order found! Tracking details loaded ✅');
+            document.getElementById('trackResult').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        /* ═══════ INIT ═══════ */
+        function init() {
+            renderCategories(); renderBestsellers(); renderNewArrivals(); renderShopProducts(products);
+            renderBridal(); renderCategoryFilters(); renderAdminOrders(); renderAdminProducts(); renderAdminCustomers();
+            initSlider(); updateBadges();
+        }
+        document.addEventListener('DOMContentLoaded', init);
+    </script>
+</body>
+
+</html>
